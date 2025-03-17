@@ -1,0 +1,841 @@
+id,Weather,Road_Type,Time_of_Day,Traffic_Density,Speed_Limit,Number_of_Vehicles,Driver_Alcohol,Accident_Severity,Road_Condition,Vehicle_Type,Driver_Age,Driver_Experience,Road_Light_Condition,Accident
+1,Rainy,City Road,Morning,1.0,100.0,5.0,0.0,,Wet,Car,51.0,48.0,Artificial Light,0.0
+2,Clear,Rural Road,Night,,120.0,3.0,0.0,Moderate,Wet,Truck,49.0,43.0,Artificial Light,0.0
+3,Rainy,Highway,Evening,1.0,60.0,4.0,0.0,Low,Icy,Car,54.0,52.0,Artificial Light,0.0
+4,Clear,City Road,Afternoon,2.0,60.0,3.0,0.0,Low,Under Construction,Bus,34.0,31.0,Daylight,0.0
+5,Rainy,Highway,Morning,1.0,195.0,11.0,0.0,Low,Dry,Car,62.0,55.0,Artificial Light,1.0
+6,Clear,Rural Road,Night,0.0,120.0,3.0,0.0,Moderate,,Truck,49.0,43.0,Artificial Light,0.0
+7,Foggy,Highway,Afternoon,0.0,60.0,4.0,0.0,Low,Dry,Truck,27.0,26.0,Daylight,1.0
+8,Rainy,City Road,Afternoon,0.0,60.0,4.0,0.0,Low,Dry,Car,29.0,22.0,Artificial Light,1.0
+9,Stormy,Highway,Morning,1.0,60.0,2.0,0.0,High,Icy,Car,38.0,29.0,Artificial Light,0.0
+10,Rainy,City Road,Afternoon,2.0,30.0,2.0,0.0,Low,Dry,Truck,50.0,48.0,Artificial Light,0.0
+11,Foggy,,Evening,,60.0,2.0,0.0,Moderate,Dry,Car,33.0,28.0,Artificial Light,
+12,Clear,Mountain Road,Night,2.0,100.0,5.0,0.0,Low,Dry,Motorcycle,47.0,38.0,Artificial Light,1.0
+13,,Rural Road,Afternoon,0.0,60.0,4.0,0.0,,Dry,Car,25.0,16.0,Artificial Light,0.0
+14,Rainy,City Road,Night,0.0,30.0,1.0,1.0,Moderate,,Motorcycle,67.0,63.0,Artificial Light,1.0
+15,Clear,Rural Road,Morning,0.0,,1.0,0.0,Low,,Car,61.0,57.0,Artificial Light,0.0
+16,Clear,Rural Road,Night,0.0,60.0,5.0,0.0,Low,Wet,Truck,46.0,,Artificial Light,0.0
+17,Rainy,City Road,,0.0,60.0,5.0,0.0,Moderate,Wet,Car,48.0,41.0,Daylight,0.0
+18,Snowy,,Afternoon,1.0,100.0,3.0,0.0,,Under Construction,Motorcycle,53.0,,Artificial Light,0.0
+19,Foggy,City Road,Night,1.0,60.0,3.0,0.0,Moderate,Wet,Motorcycle,35.0,32.0,No Light,0.0
+20,Clear,City Road,Afternoon,1.0,50.0,1.0,0.0,Moderate,Dry,Car,59.0,53.0,Daylight,1.0
+21,Clear,City Road,Morning,2.0,60.0,2.0,0.0,Low,Dry,Car,27.0,23.0,Daylight,0.0
+22,Foggy,Rural Road,Evening,0.0,100.0,5.0,0.0,Moderate,Icy,Car,32.0,24.0,,0.0
+23,Clear,Highway,Morning,0.0,30.0,1.0,0.0,Low,Dry,Car,53.0,47.0,Daylight,0.0
+24,Rainy,Rural Road,Afternoon,0.0,30.0,4.0,1.0,Low,Under Construction,,69.0,64.0,Daylight,0.0
+25,Rainy,Highway,Morning,1.0,50.0,3.0,0.0,Low,,Car,68.0,60.0,Daylight,1.0
+26,Rainy,Highway,Afternoon,0.0,100.0,3.0,0.0,High,Wet,Car,28.0,25.0,Artificial Light,0.0
+27,Foggy,Rural Road,Morning,1.0,60.0,2.0,1.0,Moderate,Under Construction,Car,40.0,38.0,Artificial Light,1.0
+28,,City Road,Evening,0.0,100.0,2.0,0.0,Low,Dry,Car,30.0,23.0,Artificial Light,0.0
+29,Stormy,,Afternoon,2.0,80.0,3.0,0.0,Moderate,Under Construction,Truck,60.0,57.0,Daylight,1.0
+30,Clear,City Road,Afternoon,1.0,80.0,,0.0,Moderate,Under Construction,,66.0,65.0,Artificial Light,0.0
+31,Rainy,Highway,Morning,1.0,80.0,1.0,0.0,Low,Dry,Car,,24.0,No Light,0.0
+32,,Highway,Afternoon,1.0,30.0,5.0,0.0,Moderate,Dry,Car,63.0,55.0,Artificial Light,1.0
+33,Foggy,Highway,Night,0.0,100.0,1.0,0.0,Low,Under Construction,Car,59.0,57.0,Artificial Light,0.0
+34,Clear,Highway,Morning,1.0,60.0,3.0,0.0,Low,Icy,Car,65.0,57.0,Artificial Light,1.0
+35,Rainy,Mountain Road,Afternoon,1.0,60.0,1.0,0.0,Low,Dry,Car,18.0,13.0,No Light,0.0
+36,Stormy,Highway,Morning,1.0,,5.0,,Moderate,Dry,Car,33.0,31.0,Daylight,0.0
+37,Clear,City Road,Evening,2.0,50.0,5.0,1.0,Low,Dry,Car,55.0,52.0,,0.0
+38,Rainy,Highway,Evening,0.0,120.0,5.0,0.0,High,Dry,Car,38.0,,Artificial Light,0.0
+39,Clear,Highway,Morning,2.0,100.0,5.0,0.0,Low,Under Construction,Car,46.0,,Daylight,1.0
+40,Clear,City Road,Night,0.0,,4.0,0.0,High,Icy,Car,33.0,25.0,Artificial Light,1.0
+41,Rainy,,Night,1.0,50.0,5.0,0.0,Low,Under Construction,Truck,45.0,36.0,Daylight,1.0
+42,Clear,Highway,Morning,0.0,60.0,5.0,0.0,Low,Under Construction,Car,40.0,37.0,Artificial Light,0.0
+43,Foggy,Highway,Night,0.0,60.0,5.0,0.0,Low,Dry,Car,69.0,63.0,Daylight,0.0
+44,Snowy,,Evening,2.0,50.0,5.0,1.0,Moderate,Dry,Car,33.0,32.0,Artificial Light,0.0
+45,Foggy,Highway,Evening,0.0,60.0,1.0,1.0,Low,Wet,Car,22.0,21.0,Daylight,0.0
+46,Rainy,Mountain Road,Afternoon,0.0,60.0,5.0,1.0,High,Dry,Bus,26.0,25.0,Daylight,0.0
+47,Clear,Highway,Night,1.0,30.0,1.0,0.0,Low,Wet,Car,59.0,54.0,Artificial Light,0.0
+48,Clear,Highway,Night,1.0,30.0,1.0,1.0,Moderate,Dry,Car,58.0,,Daylight,1.0
+49,Clear,City Road,Afternoon,1.0,60.0,5.0,0.0,Low,Dry,Truck,23.0,14.0,Daylight,0.0
+50,Clear,Highway,Evening,0.0,50.0,2.0,1.0,Low,Dry,Truck,,,Artificial Light,0.0
+51,Rainy,City Road,Morning,0.0,60.0,4.0,1.0,Low,Dry,Car,,48.0,Artificial Light,0.0
+52,Clear,Highway,Evening,0.0,80.0,5.0,0.0,Moderate,Wet,Car,57.0,55.0,Daylight,1.0
+53,Clear,Highway,Morning,0.0,60.0,4.0,0.0,Low,Dry,Car,26.0,25.0,Artificial Light,0.0
+54,Clear,Highway,,2.0,60.0,5.0,0.0,Low,Dry,Truck,34.0,25.0,Artificial Light,1.0
+55,Snowy,City Road,Morning,2.0,80.0,1.0,0.0,Low,Wet,Truck,27.0,19.0,,0.0
+56,Rainy,City Road,Afternoon,2.0,100.0,3.0,0.0,Low,Dry,Car,57.0,49.0,,0.0
+57,Foggy,Highway,Afternoon,1.0,50.0,5.0,0.0,Low,Icy,Car,43.0,39.0,Artificial Light,1.0
+58,Rainy,Mountain Road,Evening,0.0,50.0,4.0,,Low,Wet,Car,41.0,41.0,Daylight,
+59,Rainy,Highway,Afternoon,0.0,100.0,4.0,1.0,Moderate,Dry,Car,23.0,16.0,Artificial Light,0.0
+60,Foggy,Highway,Evening,2.0,100.0,5.0,1.0,Low,Dry,Car,64.0,55.0,Daylight,1.0
+61,Clear,Highway,Morning,0.0,,5.0,0.0,Moderate,Wet,Car,45.0,41.0,Artificial Light,0.0
+62,Rainy,,Evening,1.0,50.0,2.0,0.0,Moderate,Under Construction,Car,67.0,58.0,No Light,0.0
+63,Rainy,City Road,Afternoon,1.0,200.0,12.0,,Moderate,Icy,Car,54.0,53.0,Artificial Light,0.0
+64,Clear,Highway,Evening,2.0,120.0,5.0,,Low,Under Construction,Car,42.0,39.0,No Light,0.0
+65,Clear,City Road,Morning,2.0,50.0,1.0,0.0,Low,Dry,Car,67.0,66.0,Artificial Light,0.0
+66,Clear,Highway,Afternoon,1.0,80.0,3.0,1.0,Low,Dry,Car,56.0,48.0,No Light,0.0
+67,Foggy,Rural Road,Morning,0.0,80.0,4.0,0.0,Low,Dry,Motorcycle,40.0,32.0,Daylight,0.0
+68,Rainy,Highway,Night,1.0,30.0,1.0,0.0,Low,Dry,Car,54.0,54.0,Daylight,0.0
+69,Clear,Highway,Afternoon,2.0,80.0,3.0,0.0,Low,Dry,Car,52.0,43.0,Artificial Light,0.0
+70,Clear,Highway,Evening,2.0,,4.0,0.0,Moderate,Wet,Car,44.0,37.0,Daylight,0.0
+71,,Mountain Road,Evening,,206.0,13.0,0.0,Low,Icy,Motorcycle,20.0,17.0,,0.0
+72,Foggy,Highway,Evening,2.0,30.0,5.0,0.0,High,Wet,Car,35.0,26.0,Artificial Light,1.0
+73,Rainy,Highway,Afternoon,0.0,120.0,3.0,,Moderate,Dry,Truck,,39.0,Artificial Light,1.0
+74,Clear,City Road,Evening,1.0,80.0,3.0,0.0,Moderate,Icy,Car,35.0,31.0,,0.0
+75,Snowy,Highway,Morning,2.0,60.0,4.0,0.0,Low,Wet,Car,50.0,43.0,Daylight,1.0
+76,Rainy,Highway,Afternoon,0.0,60.0,4.0,0.0,Low,Under Construction,Car,65.0,60.0,Daylight,0.0
+77,Clear,Highway,Afternoon,1.0,50.0,3.0,0.0,Moderate,,Motorcycle,41.0,38.0,Daylight,1.0
+78,Rainy,Rural Road,Afternoon,0.0,60.0,2.0,0.0,Moderate,Under Construction,Car,59.0,53.0,Daylight,0.0
+79,Clear,Highway,Morning,2.0,50.0,3.0,0.0,Low,Icy,Car,24.0,21.0,Artificial Light,0.0
+80,,Highway,Night,1.0,30.0,,0.0,Low,Wet,Car,59.0,54.0,Artificial Light,0.0
+81,,Highway,Evening,0.0,30.0,5.0,0.0,Moderate,Dry,Car,65.0,59.0,Daylight,1.0
+82,Clear,Highway,Afternoon,2.0,80.0,2.0,,Low,Wet,Car,19.0,19.0,Daylight,0.0
+83,Rainy,Highway,Evening,0.0,100.0,2.0,0.0,Low,Icy,Truck,37.0,29.0,Daylight,1.0
+84,Rainy,Highway,Afternoon,0.0,60.0,2.0,0.0,Low,Dry,Car,26.0,23.0,Artificial Light,0.0
+85,Rainy,City Road,Afternoon,0.0,80.0,4.0,0.0,High,,Car,22.0,,Artificial Light,0.0
+86,Foggy,Rural Road,Morning,0.0,30.0,3.0,0.0,High,Dry,Car,42.0,42.0,Artificial Light,0.0
+87,Clear,Highway,Evening,0.0,80.0,2.0,0.0,Low,Icy,Car,69.0,64.0,Artificial Light,1.0
+88,Snowy,Highway,Night,2.0,50.0,4.0,0.0,High,Dry,Bus,21.0,14.0,Daylight,0.0
+89,Clear,Highway,Evening,2.0,60.0,5.0,1.0,Moderate,Icy,Car,68.0,65.0,Artificial Light,0.0
+90,Clear,City Road,Night,2.0,80.0,1.0,0.0,Low,Dry,Car,55.0,46.0,No Light,0.0
+91,Clear,City Road,Afternoon,2.0,60.0,4.0,0.0,High,Wet,,41.0,41.0,Artificial Light,1.0
+92,Clear,Highway,Evening,0.0,,2.0,1.0,Moderate,Dry,Truck,39.0,37.0,Artificial Light,1.0
+93,Foggy,Mountain Road,Evening,2.0,50.0,2.0,0.0,High,Icy,Truck,21.0,18.0,No Light,0.0
+94,Clear,Mountain Road,Afternoon,0.0,60.0,1.0,0.0,Low,Dry,Bus,65.0,57.0,Artificial Light,0.0
+95,Snowy,Mountain Road,Morning,0.0,50.0,4.0,0.0,Low,Icy,Car,55.0,52.0,No Light,0.0
+96,Clear,Mountain Road,Afternoon,1.0,100.0,2.0,0.0,Low,Dry,,28.0,26.0,Artificial Light,1.0
+97,Snowy,Highway,Afternoon,2.0,50.0,5.0,0.0,Low,Under Construction,Motorcycle,30.0,21.0,Artificial Light,0.0
+98,Clear,Highway,Night,2.0,60.0,2.0,1.0,Low,Dry,Bus,65.0,57.0,Artificial Light,1.0
+99,Rainy,Highway,Afternoon,2.0,80.0,3.0,1.0,Low,Dry,Motorcycle,62.0,60.0,Daylight,1.0
+100,Clear,Highway,Afternoon,1.0,50.0,3.0,0.0,Moderate,Dry,Car,24.0,22.0,Artificial Light,0.0
+101,Foggy,City Road,Morning,1.0,30.0,4.0,0.0,,Icy,Car,68.0,61.0,Daylight,0.0
+102,Clear,City Road,Evening,1.0,80.0,2.0,0.0,Low,Dry,,19.0,13.0,Artificial Light,0.0
+103,Rainy,City Road,Afternoon,1.0,30.0,5.0,1.0,Moderate,Icy,Car,54.0,53.0,Artificial Light,0.0
+104,Rainy,City Road,Afternoon,1.0,178.0,12.0,0.0,Moderate,Wet,Car,67.0,59.0,Daylight,1.0
+105,Rainy,Highway,Afternoon,0.0,60.0,1.0,0.0,Low,Under Construction,Car,34.0,30.0,Daylight,0.0
+106,Foggy,Highway,Morning,1.0,100.0,2.0,1.0,Low,Dry,,61.0,60.0,No Light,
+107,Clear,City Road,Afternoon,1.0,100.0,5.0,0.0,Moderate,Icy,Car,34.0,26.0,Artificial Light,0.0
+108,Rainy,Highway,Morning,1.0,60.0,5.0,0.0,Moderate,Under Construction,Car,25.0,,Artificial Light,1.0
+109,Rainy,Highway,Evening,2.0,60.0,2.0,1.0,Low,Under Construction,Car,,38.0,Artificial Light,1.0
+110,Clear,City Road,Morning,1.0,120.0,1.0,0.0,Moderate,Wet,Car,65.0,58.0,Artificial Light,
+111,Rainy,City Road,Afternoon,1.0,60.0,2.0,0.0,High,Dry,Motorcycle,21.0,19.0,Daylight,0.0
+112,Snowy,Rural Road,Afternoon,1.0,60.0,1.0,0.0,High,Dry,Car,43.0,42.0,Artificial Light,1.0
+113,Rainy,,Morning,2.0,30.0,2.0,0.0,Low,Icy,Car,52.0,51.0,Daylight,0.0
+114,Snowy,Rural Road,Evening,1.0,50.0,5.0,0.0,Low,Wet,Motorcycle,64.0,56.0,No Light,0.0
+115,Foggy,City Road,Morning,0.0,100.0,1.0,0.0,Low,Dry,Truck,34.0,34.0,Artificial Light,
+116,Clear,Rural Road,Afternoon,1.0,60.0,1.0,0.0,Low,Icy,Car,60.0,56.0,Daylight,0.0
+117,Clear,City Road,Morning,0.0,80.0,1.0,0.0,Low,Wet,Motorcycle,50.0,42.0,No Light,0.0
+118,Rainy,Mountain Road,Afternoon,1.0,60.0,1.0,0.0,Low,Dry,Car,18.0,,No Light,0.0
+119,Clear,Rural Road,Morning,2.0,60.0,2.0,,Moderate,Dry,Car,,10.0,Daylight,1.0
+120,Rainy,Rural Road,Morning,1.0,60.0,4.0,,Low,Dry,Car,33.0,30.0,No Light,0.0
+121,Foggy,City Road,Afternoon,1.0,80.0,5.0,0.0,,Wet,Car,34.0,,Artificial Light,0.0
+122,Rainy,Highway,Evening,0.0,60.0,3.0,0.0,Low,Icy,Car,,13.0,Artificial Light,0.0
+123,Clear,City Road,Morning,1.0,60.0,3.0,0.0,Low,Wet,Car,32.0,27.0,Daylight,0.0
+124,,,,1.0,208.0,11.0,0.0,Low,Icy,Motorcycle,52.0,50.0,Artificial Light,0.0
+125,Clear,City Road,Afternoon,2.0,50.0,5.0,1.0,Low,Dry,Car,36.0,33.0,Daylight,1.0
+126,Clear,City Road,Morning,0.0,80.0,1.0,0.0,Moderate,Dry,Motorcycle,36.0,36.0,Artificial Light,1.0
+127,Clear,Highway,Afternoon,1.0,50.0,5.0,0.0,Moderate,Dry,Car,27.0,20.0,Artificial Light,1.0
+128,Snowy,City Road,Night,0.0,60.0,3.0,0.0,Moderate,Dry,Car,45.0,43.0,Daylight,0.0
+129,,Rural Road,Night,1.0,80.0,4.0,0.0,Low,Wet,Car,68.0,67.0,Daylight,0.0
+130,Rainy,Highway,Morning,0.0,60.0,4.0,0.0,Moderate,Dry,Car,69.0,69.0,No Light,1.0
+131,Clear,City Road,,0.0,50.0,1.0,0.0,Moderate,Under Construction,Car,43.0,40.0,Artificial Light,0.0
+132,Snowy,City Road,Night,1.0,100.0,3.0,0.0,High,Dry,Bus,33.0,25.0,Artificial Light,0.0
+133,Clear,Highway,Evening,0.0,120.0,5.0,0.0,Moderate,Under Construction,Truck,53.0,53.0,,0.0
+134,Clear,City Road,Morning,2.0,50.0,1.0,0.0,Low,Dry,Car,62.0,53.0,Artificial Light,1.0
+135,Clear,Highway,Afternoon,2.0,50.0,1.0,0.0,Low,Under Construction,Truck,60.0,52.0,Artificial Light,0.0
+136,Foggy,Highway,Evening,1.0,100.0,,0.0,Moderate,Wet,Car,25.0,,Artificial Light,0.0
+137,Rainy,Rural Road,Afternoon,2.0,60.0,1.0,0.0,Moderate,Dry,Car,30.0,27.0,Daylight,
+138,Clear,Highway,Afternoon,2.0,60.0,4.0,0.0,Low,Wet,Car,62.0,61.0,,0.0
+139,Foggy,City Road,Afternoon,0.0,100.0,4.0,0.0,High,Dry,Truck,63.0,62.0,Artificial Light,1.0
+140,Rainy,City Road,Night,2.0,50.0,2.0,,Moderate,Under Construction,Motorcycle,30.0,25.0,Daylight,0.0
+141,Clear,City Road,Night,1.0,60.0,1.0,,Low,Dry,Car,54.0,54.0,No Light,1.0
+142,Snowy,Highway,Afternoon,2.0,50.0,5.0,0.0,Low,Icy,Truck,58.0,55.0,Daylight,0.0
+143,Snowy,Highway,,,60.0,4.0,0.0,,Dry,Truck,48.0,44.0,No Light,1.0
+144,Rainy,Rural Road,Afternoon,0.0,80.0,2.0,0.0,Low,Dry,Car,45.0,39.0,Artificial Light,0.0
+145,Clear,Rural Road,Evening,2.0,80.0,2.0,0.0,,Dry,Car,35.0,31.0,Daylight,0.0
+146,,Highway,Evening,2.0,50.0,3.0,0.0,Low,Wet,Car,64.0,55.0,No Light,0.0
+147,Stormy,City Road,Evening,2.0,60.0,2.0,1.0,High,Dry,Truck,65.0,57.0,Daylight,0.0
+148,Clear,City Road,Evening,1.0,30.0,4.0,1.0,Moderate,Dry,Car,42.0,36.0,Artificial Light,0.0
+149,Clear,Rural Road,Morning,0.0,60.0,2.0,0.0,Low,Icy,Car,68.0,61.0,No Light,0.0
+150,Rainy,Highway,,2.0,60.0,1.0,0.0,Low,,Car,46.0,,Artificial Light,0.0
+151,,Highway,Morning,1.0,80.0,3.0,0.0,Low,Dry,Car,30.0,27.0,Daylight,1.0
+152,Rainy,Highway,Morning,1.0,80.0,1.0,1.0,Low,Wet,Car,47.0,39.0,Daylight,0.0
+153,Snowy,Rural Road,Evening,0.0,80.0,1.0,0.0,,Dry,Car,58.0,52.0,Daylight,0.0
+154,Rainy,Highway,Morning,,30.0,2.0,0.0,High,Under Construction,Car,44.0,43.0,Daylight,1.0
+155,Clear,Highway,Evening,2.0,80.0,1.0,0.0,Low,,,48.0,44.0,No Light,1.0
+156,,Highway,Afternoon,2.0,,4.0,0.0,Low,Icy,Truck,26.0,26.0,Artificial Light,0.0
+157,Clear,Highway,Evening,1.0,100.0,2.0,0.0,Moderate,Dry,,68.0,60.0,Artificial Light,0.0
+158,Rainy,City Road,Morning,1.0,100.0,1.0,0.0,Low,Wet,Car,18.0,10.0,Artificial Light,0.0
+159,Clear,Rural Road,Night,1.0,50.0,2.0,1.0,Low,Dry,Car,27.0,26.0,Artificial Light,1.0
+160,,Mountain Road,Night,2.0,80.0,3.0,0.0,Low,,Motorcycle,23.0,,Artificial Light,0.0
+161,Foggy,City Road,Morning,1.0,50.0,5.0,0.0,Low,Wet,Car,,12.0,Artificial Light,
+162,Rainy,Highway,Evening,,100.0,3.0,0.0,Low,,Car,41.0,33.0,Artificial Light,1.0
+163,Rainy,Highway,Morning,1.0,60.0,1.0,0.0,Low,Dry,Car,32.0,29.0,Daylight,0.0
+164,Clear,Highway,,1.0,50.0,2.0,0.0,,Dry,Car,28.0,19.0,Daylight,1.0
+165,Clear,City Road,Afternoon,0.0,213.0,11.0,0.0,Low,Dry,Motorcycle,65.0,56.0,Daylight,1.0
+166,Rainy,Rural Road,Evening,2.0,50.0,4.0,0.0,Low,Dry,Car,46.0,42.0,Artificial Light,0.0
+167,Clear,,Morning,2.0,60.0,2.0,0.0,Low,Icy,Car,28.0,22.0,Artificial Light,1.0
+168,Rainy,Highway,Evening,0.0,60.0,3.0,0.0,Low,Wet,Car,65.0,59.0,Artificial Light,0.0
+169,Foggy,Highway,Morning,,80.0,2.0,,Moderate,Dry,Car,35.0,34.0,Artificial Light,1.0
+170,Foggy,Highway,Afternoon,1.0,80.0,3.0,0.0,Moderate,Dry,Car,,26.0,No Light,0.0
+171,Rainy,Highway,Evening,1.0,30.0,1.0,0.0,Low,Dry,Car,25.0,18.0,Daylight,0.0
+172,Clear,,Morning,0.0,30.0,3.0,0.0,Low,Dry,Car,21.0,13.0,No Light,1.0
+173,Rainy,Highway,Evening,2.0,30.0,2.0,1.0,Low,Wet,Car,69.0,63.0,Daylight,0.0
+174,Rainy,Highway,Night,0.0,120.0,3.0,0.0,Moderate,Dry,Motorcycle,20.0,19.0,,0.0
+175,Rainy,Highway,Night,,120.0,5.0,0.0,Moderate,Under Construction,Car,64.0,58.0,Artificial Light,0.0
+176,Clear,Highway,Evening,2.0,80.0,2.0,0.0,Moderate,Dry,Car,52.0,45.0,Daylight,0.0
+177,Clear,Rural Road,Evening,1.0,60.0,5.0,0.0,Moderate,Dry,Truck,37.0,33.0,Daylight,1.0
+178,Clear,Rural Road,Afternoon,,80.0,,0.0,Low,Dry,Motorcycle,56.0,53.0,Daylight,0.0
+179,Foggy,Highway,Evening,0.0,60.0,2.0,0.0,Moderate,Dry,,62.0,53.0,Artificial Light,0.0
+180,Clear,Highway,Afternoon,0.0,100.0,2.0,0.0,Low,Dry,Car,,22.0,Daylight,0.0
+181,Clear,Rural Road,Afternoon,1.0,50.0,1.0,0.0,Low,Dry,Car,29.0,22.0,No Light,1.0
+182,Rainy,City Road,Afternoon,2.0,60.0,3.0,0.0,Low,Dry,Car,37.0,30.0,Artificial Light,0.0
+183,Rainy,Highway,Afternoon,0.0,80.0,4.0,0.0,High,Dry,Car,42.0,34.0,,1.0
+184,Clear,,Morning,1.0,100.0,5.0,0.0,Low,Wet,Truck,69.0,61.0,Daylight,0.0
+185,Clear,City Road,Afternoon,,50.0,4.0,0.0,Moderate,Dry,Car,49.0,47.0,Daylight,0.0
+186,Clear,Highway,Morning,0.0,60.0,4.0,1.0,High,Wet,Truck,36.0,27.0,Daylight,0.0
+187,Rainy,City Road,Evening,2.0,120.0,3.0,0.0,,Dry,Car,24.0,,Daylight,0.0
+188,,Highway,Morning,2.0,80.0,5.0,,Moderate,Wet,Car,57.0,54.0,Daylight,1.0
+189,Snowy,Highway,Night,0.0,50.0,2.0,1.0,,Dry,Car,60.0,54.0,Artificial Light,0.0
+190,Clear,Highway,Night,0.0,60.0,5.0,0.0,Moderate,Dry,Truck,36.0,31.0,Daylight,1.0
+191,Clear,Highway,Evening,0.0,60.0,2.0,1.0,Low,Wet,,52.0,50.0,Daylight,0.0
+192,Clear,City Road,Morning,2.0,30.0,3.0,0.0,High,Dry,Car,47.0,38.0,Artificial Light,0.0
+193,Snowy,Highway,Morning,0.0,30.0,1.0,,Moderate,Wet,Motorcycle,24.0,15.0,Artificial Light,0.0
+194,Clear,Rural Road,Afternoon,2.0,30.0,1.0,0.0,Low,Wet,Truck,53.0,50.0,Daylight,1.0
+195,Clear,City Road,Afternoon,2.0,100.0,,0.0,Low,Icy,Car,50.0,43.0,Artificial Light,1.0
+196,Clear,City Road,Afternoon,,60.0,1.0,1.0,High,Icy,Bus,41.0,35.0,Daylight,1.0
+197,Clear,Highway,Morning,2.0,60.0,3.0,0.0,Moderate,Dry,Motorcycle,56.0,51.0,Artificial Light,0.0
+198,Clear,,Afternoon,1.0,60.0,5.0,0.0,Low,Dry,Car,50.0,41.0,Artificial Light,0.0
+199,Rainy,Highway,Evening,2.0,80.0,2.0,0.0,High,Dry,Motorcycle,52.0,46.0,Daylight,0.0
+200,Clear,City Road,,2.0,50.0,2.0,0.0,Low,Icy,Car,34.0,26.0,Artificial Light,0.0
+201,,Highway,Morning,0.0,60.0,3.0,,Low,Wet,Car,20.0,17.0,Artificial Light,0.0
+202,Clear,,Morning,2.0,100.0,1.0,,Low,Dry,Car,37.0,31.0,Artificial Light,1.0
+203,Clear,Highway,Evening,1.0,,3.0,0.0,Low,Dry,Car,28.0,23.0,Artificial Light,1.0
+204,Rainy,Highway,Afternoon,1.0,60.0,2.0,0.0,Low,Dry,Car,35.0,27.0,Daylight,0.0
+205,,Highway,Evening,2.0,,3.0,0.0,Moderate,Dry,Truck,48.0,40.0,Daylight,0.0
+206,Rainy,Highway,Evening,2.0,60.0,3.0,0.0,Low,Under Construction,Car,46.0,41.0,,0.0
+207,Stormy,City Road,Evening,0.0,190.0,14.0,1.0,High,Dry,Car,69.0,62.0,Artificial Light,1.0
+208,Foggy,City Road,Morning,,60.0,4.0,0.0,Low,Wet,Car,51.0,43.0,Daylight,1.0
+209,Rainy,Highway,Morning,0.0,60.0,,0.0,Low,Dry,,68.0,,Artificial Light,0.0
+210,Snowy,,Afternoon,0.0,80.0,5.0,0.0,Low,Wet,Car,45.0,41.0,Artificial Light,1.0
+211,Clear,Highway,Afternoon,0.0,60.0,4.0,0.0,High,Icy,Car,19.0,15.0,Artificial Light,0.0
+212,Rainy,City Road,Night,2.0,100.0,3.0,0.0,Moderate,Under Construction,Car,44.0,37.0,Daylight,0.0
+213,,City Road,Morning,0.0,,5.0,0.0,Low,Dry,Car,65.0,63.0,No Light,0.0
+214,Rainy,Highway,Evening,1.0,196.0,11.0,0.0,Moderate,Icy,Car,38.0,32.0,Daylight,0.0
+215,Clear,City Road,,2.0,60.0,1.0,1.0,Moderate,Dry,Car,34.0,31.0,Artificial Light,1.0
+216,Clear,Highway,Night,0.0,60.0,1.0,0.0,Low,Icy,Car,31.0,22.0,Artificial Light,0.0
+217,Rainy,City Road,Evening,1.0,80.0,1.0,0.0,Low,Wet,Car,33.0,33.0,Daylight,0.0
+218,Rainy,Highway,Afternoon,1.0,,4.0,0.0,High,Dry,Car,18.0,11.0,Artificial Light,0.0
+219,Clear,Highway,Morning,0.0,100.0,4.0,0.0,Low,Icy,,50.0,50.0,Daylight,0.0
+220,Stormy,Rural Road,Evening,1.0,80.0,2.0,0.0,Low,Icy,Car,21.0,14.0,,1.0
+221,Clear,Rural Road,Afternoon,1.0,50.0,3.0,0.0,Low,Dry,Motorcycle,35.0,34.0,Artificial Light,0.0
+222,Clear,Rural Road,Evening,2.0,80.0,,1.0,Low,Wet,Car,18.0,15.0,Artificial Light,0.0
+223,Clear,Highway,Morning,1.0,80.0,1.0,0.0,Moderate,Icy,Car,45.0,36.0,No Light,0.0
+224,Rainy,City Road,Morning,,30.0,4.0,1.0,Low,Dry,Car,69.0,62.0,Daylight,1.0
+225,Foggy,Highway,Afternoon,0.0,50.0,2.0,0.0,Low,Dry,Car,69.0,63.0,Daylight,0.0
+226,Foggy,City Road,Night,1.0,80.0,5.0,0.0,Low,Wet,Motorcycle,43.0,,Artificial Light,0.0
+227,,Highway,Night,1.0,60.0,2.0,0.0,Low,Icy,Car,24.0,17.0,Daylight,
+228,Snowy,City Road,Afternoon,1.0,50.0,3.0,0.0,Low,,Car,56.0,54.0,No Light,0.0
+229,Foggy,City Road,Night,0.0,188.0,10.0,1.0,Low,Icy,Car,33.0,27.0,Artificial Light,0.0
+230,Clear,Highway,Night,2.0,80.0,1.0,0.0,High,Icy,Car,46.0,41.0,Daylight,0.0
+231,Clear,Highway,Evening,2.0,100.0,4.0,0.0,Moderate,Icy,Truck,52.0,43.0,Daylight,0.0
+232,Foggy,Highway,Afternoon,0.0,80.0,4.0,0.0,Moderate,Icy,Motorcycle,32.0,,Artificial Light,0.0
+233,Clear,Highway,Morning,1.0,100.0,4.0,0.0,Moderate,Dry,Motorcycle,62.0,57.0,Artificial Light,1.0
+234,Rainy,City Road,Morning,1.0,50.0,4.0,0.0,Low,Dry,Car,36.0,33.0,Artificial Light,0.0
+235,Rainy,Highway,Afternoon,0.0,60.0,2.0,,Moderate,Dry,Truck,29.0,24.0,Daylight,0.0
+236,Rainy,City Road,Evening,1.0,60.0,,0.0,Low,Icy,Car,36.0,32.0,Artificial Light,0.0
+237,Rainy,Rural Road,Evening,1.0,50.0,,0.0,Moderate,Under Construction,Car,67.0,,No Light,0.0
+238,Rainy,City Road,Afternoon,2.0,30.0,2.0,0.0,Low,Under Construction,Motorcycle,68.0,66.0,Daylight,0.0
+239,Foggy,City Road,Afternoon,2.0,30.0,3.0,0.0,Low,Dry,Car,62.0,59.0,Daylight,0.0
+240,Rainy,Highway,Afternoon,2.0,100.0,3.0,0.0,High,Wet,Car,43.0,38.0,Artificial Light,0.0
+241,Clear,Rural Road,Night,2.0,50.0,3.0,,Low,Icy,Car,54.0,48.0,Artificial Light,1.0
+242,Clear,Highway,Morning,1.0,60.0,5.0,0.0,Low,Wet,Truck,63.0,60.0,Artificial Light,0.0
+243,Stormy,Highway,Evening,1.0,195.0,14.0,0.0,Moderate,Dry,Car,46.0,38.0,No Light,0.0
+244,Rainy,City Road,,2.0,100.0,1.0,1.0,Low,Dry,Motorcycle,48.0,46.0,Artificial Light,0.0
+245,Clear,Rural Road,Morning,1.0,194.0,,1.0,Low,Under Construction,Truck,31.0,24.0,Artificial Light,0.0
+246,Rainy,Mountain Road,Afternoon,1.0,,4.0,0.0,High,,Car,42.0,41.0,Artificial Light,0.0
+247,Rainy,Rural Road,Afternoon,2.0,80.0,3.0,0.0,,Dry,Truck,33.0,33.0,Daylight,0.0
+248,Foggy,City Road,Evening,1.0,60.0,3.0,,Moderate,Icy,Car,59.0,51.0,Artificial Light,1.0
+249,Clear,City Road,Afternoon,1.0,80.0,1.0,1.0,Low,Dry,Car,37.0,31.0,Artificial Light,0.0
+250,Foggy,Highway,Evening,2.0,60.0,1.0,0.0,Low,Dry,Car,43.0,43.0,Daylight,0.0
+251,Clear,Highway,Afternoon,2.0,100.0,4.0,0.0,Low,Under Construction,Truck,27.0,26.0,Daylight,0.0
+252,Clear,,Morning,0.0,60.0,,0.0,Low,Wet,Car,18.0,10.0,Daylight,0.0
+253,Snowy,Mountain Road,Night,0.0,50.0,5.0,0.0,,,Car,32.0,31.0,Daylight,0.0
+254,Clear,Highway,Afternoon,1.0,80.0,5.0,0.0,Low,Icy,Car,29.0,28.0,Artificial Light,0.0
+255,Rainy,Rural Road,Morning,0.0,100.0,4.0,0.0,Low,,Car,41.0,41.0,Artificial Light,0.0
+256,Clear,Highway,Evening,2.0,80.0,5.0,0.0,Low,Under Construction,Car,,53.0,,0.0
+257,Rainy,City Road,Morning,2.0,80.0,1.0,0.0,Low,Under Construction,Car,46.0,43.0,Artificial Light,0.0
+258,Clear,Highway,Afternoon,0.0,50.0,5.0,0.0,Moderate,Dry,Car,24.0,18.0,Daylight,0.0
+259,Snowy,Rural Road,Afternoon,2.0,50.0,2.0,0.0,Moderate,Wet,Car,44.0,,Artificial Light,1.0
+260,Clear,Mountain Road,Afternoon,0.0,50.0,4.0,1.0,Moderate,Dry,Motorcycle,66.0,59.0,Artificial Light,0.0
+261,Foggy,City Road,Morning,,60.0,1.0,0.0,Moderate,Wet,Car,46.0,41.0,Daylight,0.0
+262,Rainy,Highway,Afternoon,0.0,60.0,4.0,0.0,Low,Under Construction,Car,65.0,60.0,Daylight,0.0
+263,Rainy,Highway,,0.0,60.0,3.0,0.0,Low,Dry,Car,63.0,61.0,Daylight,0.0
+264,Rainy,City Road,Evening,1.0,,2.0,1.0,Low,Wet,Car,59.0,50.0,Daylight,0.0
+265,Snowy,Highway,Afternoon,1.0,60.0,5.0,0.0,Low,Dry,Truck,61.0,60.0,Artificial Light,0.0
+266,Clear,Highway,Evening,2.0,60.0,1.0,0.0,Moderate,Wet,Truck,50.0,45.0,Artificial Light,0.0
+267,Clear,Rural Road,Afternoon,2.0,80.0,5.0,0.0,Low,Wet,Car,42.0,36.0,Artificial Light,1.0
+268,Clear,Highway,Afternoon,1.0,80.0,3.0,0.0,Low,Dry,Car,24.0,24.0,Daylight,0.0
+269,Stormy,Highway,Morning,1.0,50.0,2.0,0.0,Low,Dry,,23.0,14.0,Daylight,0.0
+270,Clear,Highway,Morning,1.0,100.0,5.0,0.0,Low,Icy,,21.0,21.0,Artificial Light,0.0
+271,Snowy,Highway,Morning,2.0,60.0,4.0,0.0,Low,Wet,Car,50.0,43.0,Daylight,1.0
+272,Rainy,City Road,Morning,0.0,50.0,3.0,0.0,High,Icy,Motorcycle,58.0,49.0,Artificial Light,0.0
+273,Rainy,Rural Road,Evening,0.0,120.0,5.0,1.0,Moderate,Wet,Car,38.0,30.0,Artificial Light,0.0
+274,Foggy,Highway,Afternoon,,50.0,4.0,1.0,Moderate,Dry,Car,43.0,41.0,,0.0
+275,Clear,Highway,Afternoon,0.0,60.0,4.0,0.0,High,Icy,Car,19.0,15.0,Artificial Light,
+276,Foggy,City Road,Afternoon,2.0,50.0,5.0,0.0,High,Wet,Car,26.0,17.0,Artificial Light,0.0
+277,Snowy,Rural Road,Morning,1.0,50.0,1.0,0.0,High,Dry,Car,25.0,23.0,Artificial Light,
+278,Clear,City Road,Evening,1.0,120.0,4.0,0.0,Low,Dry,Car,38.0,37.0,Artificial Light,1.0
+279,Snowy,Highway,Night,1.0,50.0,5.0,0.0,High,Dry,Car,20.0,,Artificial Light,1.0
+280,Clear,Highway,Morning,2.0,100.0,2.0,0.0,Low,Dry,Car,48.0,43.0,Daylight,0.0
+281,Rainy,Mountain Road,Morning,2.0,30.0,5.0,0.0,Low,Dry,Car,30.0,28.0,Artificial Light,0.0
+282,Clear,Highway,,1.0,50.0,5.0,0.0,Low,Dry,Car,46.0,37.0,No Light,0.0
+283,,Mountain Road,Evening,2.0,50.0,4.0,0.0,Moderate,Under Construction,Car,18.0,17.0,Daylight,1.0
+284,Rainy,Highway,Afternoon,0.0,80.0,5.0,0.0,Low,Dry,Motorcycle,24.0,23.0,Daylight,0.0
+285,Clear,Highway,Evening,2.0,60.0,5.0,0.0,Low,,Car,52.0,52.0,Daylight,0.0
+286,Clear,Rural Road,Morning,1.0,30.0,1.0,0.0,Low,Dry,Car,21.0,21.0,Artificial Light,0.0
+287,Clear,Highway,Evening,0.0,100.0,4.0,1.0,Moderate,Wet,Car,33.0,26.0,Artificial Light,0.0
+288,Clear,Highway,,2.0,60.0,4.0,1.0,Low,Icy,Car,19.0,11.0,Artificial Light,0.0
+289,Rainy,Highway,,1.0,100.0,4.0,1.0,Low,Wet,Car,44.0,40.0,Artificial Light,
+290,Clear,Highway,Afternoon,0.0,60.0,3.0,0.0,Low,Dry,Motorcycle,41.0,41.0,No Light,0.0
+291,Clear,,Morning,0.0,30.0,3.0,0.0,High,Dry,Car,27.0,27.0,Artificial Light,1.0
+292,Clear,Highway,Afternoon,1.0,50.0,3.0,0.0,Moderate,Dry,Car,26.0,17.0,Artificial Light,0.0
+293,Clear,Highway,Morning,1.0,60.0,3.0,0.0,Low,Icy,Car,65.0,57.0,Artificial Light,1.0
+294,Snowy,Highway,,1.0,30.0,4.0,1.0,Moderate,Dry,Car,66.0,,Daylight,1.0
+295,Clear,Highway,Afternoon,0.0,60.0,2.0,1.0,Low,Wet,Car,41.0,41.0,Artificial Light,1.0
+296,,Highway,Evening,,100.0,4.0,0.0,Moderate,Dry,Truck,34.0,28.0,Artificial Light,0.0
+297,Clear,Mountain Road,,2.0,30.0,1.0,1.0,Moderate,Dry,Car,43.0,38.0,Daylight,0.0
+298,Stormy,Rural Road,Night,2.0,100.0,3.0,,Low,Icy,Car,48.0,39.0,Daylight,1.0
+299,Clear,Highway,Evening,0.0,80.0,5.0,0.0,Low,Dry,Car,23.0,22.0,Daylight,1.0
+300,,Highway,Afternoon,2.0,80.0,2.0,0.0,Low,Dry,Car,24.0,23.0,Daylight,1.0
+301,Rainy,Highway,Evening,2.0,100.0,3.0,0.0,Low,Icy,Car,34.0,34.0,Artificial Light,0.0
+302,Clear,City Road,Evening,2.0,50.0,3.0,0.0,Low,Dry,Car,49.0,44.0,Daylight,1.0
+303,Clear,Highway,Night,1.0,50.0,3.0,0.0,Moderate,Dry,Car,36.0,35.0,Artificial Light,1.0
+304,Rainy,,Evening,2.0,80.0,1.0,,Low,Dry,Car,65.0,60.0,Artificial Light,1.0
+305,,Mountain Road,Evening,1.0,60.0,1.0,1.0,Low,Dry,Car,30.0,25.0,Artificial Light,1.0
+306,Snowy,Highway,Afternoon,0.0,30.0,3.0,1.0,Low,Dry,,33.0,29.0,Daylight,1.0
+307,Rainy,Highway,Afternoon,,50.0,5.0,0.0,Moderate,Dry,Truck,40.0,36.0,Daylight,0.0
+308,Stormy,Rural Road,,1.0,60.0,5.0,0.0,High,Wet,Car,46.0,37.0,Daylight,
+309,,Rural Road,Evening,0.0,80.0,2.0,1.0,Low,Icy,Car,25.0,23.0,Daylight,0.0
+310,,Highway,Afternoon,1.0,60.0,4.0,0.0,Low,Icy,Truck,20.0,20.0,Daylight,0.0
+311,Foggy,Highway,Evening,1.0,100.0,3.0,0.0,Low,Wet,Motorcycle,28.0,20.0,Daylight,
+312,Rainy,Rural Road,Afternoon,2.0,80.0,3.0,0.0,Moderate,Wet,Truck,64.0,57.0,Artificial Light,1.0
+313,Stormy,City Road,Afternoon,0.0,50.0,1.0,0.0,High,Dry,Car,22.0,14.0,Artificial Light,0.0
+314,Snowy,Highway,Afternoon,0.0,50.0,5.0,0.0,Low,Dry,,38.0,37.0,Artificial Light,0.0
+315,Rainy,City Road,Morning,1.0,50.0,1.0,0.0,Low,Wet,Car,18.0,9.0,Artificial Light,0.0
+316,Stormy,Highway,Night,1.0,60.0,5.0,0.0,Low,Icy,Car,27.0,19.0,Daylight,1.0
+317,Foggy,Rural Road,Afternoon,2.0,60.0,4.0,1.0,Moderate,Under Construction,Car,58.0,54.0,,1.0
+318,Clear,Rural Road,Morning,,100.0,2.0,0.0,Low,Dry,Truck,60.0,59.0,Artificial Light,1.0
+319,Rainy,Highway,Evening,1.0,50.0,3.0,0.0,Low,Dry,Motorcycle,65.0,63.0,Artificial Light,1.0
+320,Clear,Highway,Afternoon,0.0,60.0,1.0,0.0,Moderate,Icy,Car,56.0,55.0,Daylight,0.0
+321,Foggy,Highway,Evening,0.0,60.0,3.0,1.0,High,Dry,Car,53.0,53.0,Daylight,0.0
+322,Rainy,Highway,Night,0.0,100.0,5.0,0.0,Moderate,Icy,Car,21.0,19.0,Artificial Light,0.0
+323,Clear,City Road,Afternoon,2.0,60.0,1.0,0.0,Low,Dry,Motorcycle,60.0,52.0,Artificial Light,0.0
+324,Clear,Highway,Afternoon,2.0,100.0,2.0,0.0,Moderate,Dry,Car,42.0,41.0,Artificial Light,0.0
+325,Foggy,City Road,Afternoon,1.0,120.0,,0.0,Low,Dry,,52.0,48.0,Artificial Light,
+326,Stormy,Rural Road,Evening,0.0,80.0,5.0,0.0,Low,Wet,Car,60.0,,Artificial Light,1.0
+327,Snowy,City Road,Morning,1.0,100.0,1.0,1.0,Low,Icy,Car,36.0,34.0,Daylight,0.0
+328,Snowy,Mountain Road,Evening,2.0,80.0,2.0,1.0,Moderate,Dry,Car,23.0,22.0,Daylight,1.0
+329,Clear,Highway,,2.0,60.0,5.0,0.0,Low,Dry,Car,61.0,52.0,No Light,1.0
+330,Clear,Highway,Afternoon,0.0,50.0,3.0,0.0,Low,,Car,50.0,45.0,Artificial Light,0.0
+331,Clear,Highway,Afternoon,2.0,60.0,,0.0,Low,Dry,Car,39.0,33.0,Daylight,0.0
+332,Clear,City Road,Afternoon,,30.0,1.0,1.0,High,Wet,Car,36.0,31.0,Artificial Light,0.0
+333,Stormy,Highway,Afternoon,1.0,,4.0,0.0,Moderate,Dry,Car,68.0,59.0,Artificial Light,1.0
+334,Clear,City Road,Morning,1.0,,5.0,0.0,Low,Wet,Truck,59.0,53.0,Daylight,0.0
+335,Snowy,Highway,Afternoon,1.0,30.0,,0.0,Moderate,Icy,Car,58.0,55.0,Artificial Light,0.0
+336,Snowy,Highway,Morning,2.0,50.0,3.0,1.0,Moderate,Icy,Car,29.0,29.0,Artificial Light,0.0
+337,Clear,Highway,Night,1.0,60.0,5.0,0.0,Low,Dry,Bus,20.0,15.0,Artificial Light,1.0
+338,Clear,Highway,Afternoon,1.0,50.0,5.0,1.0,Moderate,Dry,Car,27.0,24.0,Artificial Light,0.0
+339,Snowy,Highway,Morning,2.0,50.0,5.0,1.0,Low,Dry,Car,31.0,29.0,Artificial Light,0.0
+340,Rainy,City Road,Evening,1.0,100.0,4.0,0.0,Low,Icy,Bus,,,Daylight,0.0
+341,Rainy,Highway,,2.0,80.0,3.0,0.0,Low,,Car,,28.0,Daylight,0.0
+342,Clear,Mountain Road,Morning,0.0,60.0,3.0,0.0,Low,Dry,Car,33.0,29.0,Daylight,0.0
+343,Clear,Highway,Evening,2.0,50.0,4.0,0.0,High,Dry,Motorcycle,27.0,18.0,No Light,0.0
+344,Clear,Highway,Afternoon,0.0,60.0,4.0,0.0,Low,Wet,Car,25.0,20.0,,0.0
+345,Clear,City Road,Evening,,50.0,2.0,0.0,Low,Dry,Car,68.0,62.0,Artificial Light,0.0
+346,Rainy,City Road,Afternoon,1.0,100.0,3.0,0.0,Moderate,Wet,Car,54.0,50.0,Artificial Light,0.0
+347,Rainy,City Road,Night,0.0,80.0,2.0,0.0,Low,Icy,Car,49.0,49.0,Daylight,
+348,Snowy,City Road,Evening,2.0,60.0,3.0,0.0,Low,Wet,Truck,38.0,34.0,Artificial Light,0.0
+349,Clear,Highway,Evening,1.0,60.0,2.0,0.0,Low,Wet,Car,32.0,27.0,Artificial Light,0.0
+350,Clear,Mountain Road,Afternoon,1.0,30.0,5.0,1.0,Moderate,Wet,Car,38.0,36.0,Artificial Light,1.0
+351,Clear,City Road,Afternoon,0.0,60.0,1.0,0.0,Moderate,Under Construction,Motorcycle,43.0,40.0,Artificial Light,1.0
+352,Clear,City Road,Evening,0.0,50.0,1.0,1.0,Low,Wet,Truck,57.0,53.0,Daylight,1.0
+353,Clear,City Road,,2.0,60.0,1.0,0.0,Moderate,Wet,Car,53.0,49.0,Daylight,0.0
+354,Clear,Highway,Morning,1.0,60.0,3.0,0.0,Moderate,Under Construction,Truck,,36.0,No Light,0.0
+355,Clear,Mountain Road,,1.0,80.0,3.0,0.0,Low,Dry,Motorcycle,18.0,18.0,Artificial Light,
+356,Stormy,City Road,Evening,1.0,189.0,13.0,0.0,Low,Icy,Car,68.0,60.0,Artificial Light,0.0
+357,Snowy,City Road,Afternoon,2.0,,3.0,0.0,Low,,Car,22.0,15.0,Artificial Light,1.0
+358,Foggy,Highway,Afternoon,1.0,80.0,2.0,0.0,High,Icy,Car,30.0,25.0,Artificial Light,0.0
+359,Snowy,Highway,Evening,1.0,30.0,5.0,0.0,Low,Dry,Car,52.0,45.0,Daylight,1.0
+360,Clear,Highway,Afternoon,2.0,30.0,4.0,0.0,Low,Wet,Truck,47.0,45.0,Daylight,0.0
+361,Clear,Highway,Evening,1.0,50.0,4.0,1.0,Low,Dry,Car,29.0,25.0,Artificial Light,0.0
+362,Rainy,Highway,Morning,2.0,80.0,2.0,0.0,Low,Dry,Car,43.0,35.0,Artificial Light,1.0
+363,,Highway,Afternoon,0.0,50.0,2.0,0.0,,Dry,Car,51.0,51.0,Artificial Light,1.0
+364,Foggy,Highway,Afternoon,1.0,50.0,2.0,,Moderate,Wet,Motorcycle,19.0,19.0,Daylight,1.0
+365,Clear,Rural Road,Morning,0.0,60.0,2.0,0.0,Low,,Car,68.0,61.0,No Light,0.0
+366,Rainy,Highway,Night,0.0,50.0,3.0,0.0,Moderate,Dry,Car,69.0,,,0.0
+367,Rainy,Rural Road,Morning,1.0,50.0,,0.0,Low,Dry,Car,18.0,18.0,No Light,
+368,Clear,Highway,Afternoon,1.0,50.0,5.0,0.0,High,Icy,Car,23.0,17.0,Artificial Light,1.0
+369,Snowy,City Road,Afternoon,1.0,60.0,1.0,0.0,Moderate,Dry,Motorcycle,48.0,45.0,No Light,1.0
+370,Clear,City Road,Afternoon,2.0,60.0,4.0,0.0,,,,32.0,24.0,Artificial Light,1.0
+371,Rainy,Highway,Morning,1.0,,3.0,0.0,Low,Dry,Car,44.0,39.0,Daylight,0.0
+372,Rainy,City Road,Afternoon,2.0,50.0,4.0,0.0,Low,Dry,,20.0,15.0,Artificial Light,0.0
+373,Snowy,Rural Road,Afternoon,2.0,100.0,4.0,0.0,Low,Dry,Car,40.0,36.0,Daylight,1.0
+374,Stormy,Highway,Afternoon,0.0,,4.0,0.0,High,Under Construction,Motorcycle,46.0,44.0,Artificial Light,0.0
+375,Rainy,Rural Road,Morning,1.0,60.0,3.0,0.0,Low,Under Construction,,19.0,14.0,Daylight,
+376,Clear,,Evening,1.0,30.0,5.0,1.0,Low,Icy,Motorcycle,62.0,61.0,Daylight,1.0
+377,Foggy,Rural Road,Afternoon,2.0,60.0,5.0,0.0,,Dry,Car,28.0,24.0,Artificial Light,0.0
+378,Clear,,Afternoon,0.0,100.0,1.0,0.0,Low,Under Construction,Car,24.0,18.0,,0.0
+379,Rainy,Rural Road,Morning,2.0,60.0,2.0,1.0,Low,Icy,Car,18.0,18.0,Daylight,0.0
+380,Foggy,Highway,Afternoon,,100.0,4.0,0.0,Low,Icy,Car,43.0,37.0,Daylight,0.0
+381,Rainy,Highway,Afternoon,1.0,100.0,2.0,0.0,Moderate,Dry,Bus,26.0,18.0,Daylight,0.0
+382,Foggy,Highway,Afternoon,0.0,50.0,,0.0,Low,Wet,Car,66.0,65.0,Daylight,0.0
+383,Rainy,City Road,Afternoon,0.0,60.0,3.0,0.0,High,Icy,Car,34.0,27.0,Artificial Light,0.0
+384,Clear,Rural Road,Morning,1.0,80.0,4.0,,Low,Dry,Bus,39.0,35.0,Artificial Light,1.0
+385,Clear,City Road,Evening,1.0,80.0,5.0,0.0,Low,Icy,Car,43.0,41.0,Daylight,0.0
+386,Rainy,Highway,Morning,0.0,30.0,3.0,0.0,,Dry,Car,27.0,26.0,Daylight,0.0
+387,Foggy,Highway,Morning,1.0,80.0,3.0,0.0,Low,Icy,Motorcycle,42.0,36.0,,1.0
+388,Clear,Rural Road,Afternoon,1.0,50.0,4.0,0.0,Low,Dry,Car,49.0,40.0,Daylight,0.0
+389,Clear,City Road,,2.0,50.0,1.0,0.0,Low,,,56.0,52.0,Artificial Light,0.0
+390,,Highway,Morning,2.0,,4.0,0.0,Moderate,Wet,Car,30.0,28.0,Artificial Light,1.0
+391,Snowy,Highway,Evening,1.0,100.0,3.0,0.0,Moderate,Wet,Car,54.0,53.0,Artificial Light,0.0
+392,Clear,Highway,Night,0.0,120.0,5.0,0.0,Moderate,Icy,Car,67.0,63.0,Daylight,1.0
+393,Clear,Rural Road,Evening,1.0,30.0,3.0,0.0,,Wet,Car,41.0,35.0,Artificial Light,1.0
+394,,Highway,Morning,0.0,80.0,1.0,1.0,,Wet,Car,55.0,49.0,Artificial Light,0.0
+395,Rainy,Highway,Afternoon,2.0,60.0,5.0,0.0,Moderate,Dry,,34.0,32.0,Artificial Light,0.0
+396,Rainy,Highway,Night,1.0,60.0,4.0,1.0,Low,,Truck,31.0,24.0,Daylight,0.0
+397,Rainy,Highway,Night,2.0,100.0,4.0,0.0,Moderate,Wet,Car,22.0,21.0,Artificial Light,0.0
+398,Clear,City Road,Morning,1.0,60.0,2.0,0.0,Low,Dry,Car,64.0,59.0,,0.0
+399,Clear,Highway,Morning,0.0,60.0,5.0,0.0,,Wet,Car,45.0,41.0,Artificial Light,0.0
+400,Clear,Mountain Road,Afternoon,2.0,120.0,2.0,,Low,Icy,,50.0,45.0,Daylight,0.0
+401,Rainy,Highway,,1.0,50.0,2.0,0.0,High,Dry,Car,29.0,,Artificial Light,1.0
+402,Snowy,Rural Road,Evening,1.0,80.0,2.0,0.0,Low,Wet,Car,27.0,18.0,Daylight,1.0
+403,Clear,Highway,Evening,1.0,60.0,5.0,1.0,High,Dry,Car,26.0,17.0,Daylight,0.0
+404,Clear,Highway,Evening,2.0,30.0,1.0,1.0,,Icy,Car,68.0,67.0,Artificial Light,0.0
+405,Foggy,,Afternoon,0.0,60.0,3.0,0.0,Low,Icy,Car,43.0,37.0,Artificial Light,0.0
+406,Foggy,City Road,Evening,0.0,100.0,1.0,0.0,Low,Dry,Car,35.0,26.0,Artificial Light,1.0
+407,Foggy,Highway,Morning,0.0,60.0,2.0,0.0,Low,Dry,Truck,46.0,,Daylight,0.0
+408,Snowy,Highway,Evening,1.0,100.0,5.0,0.0,Moderate,Under Construction,Car,47.0,,Daylight,0.0
+409,Rainy,Highway,Night,2.0,30.0,5.0,0.0,Low,Icy,Car,56.0,55.0,Daylight,1.0
+410,Snowy,City Road,Evening,1.0,50.0,2.0,0.0,Low,Wet,Car,67.0,65.0,Artificial Light,1.0
+411,Clear,City Road,Morning,2.0,50.0,1.0,0.0,Low,Dry,Car,62.0,53.0,Artificial Light,1.0
+412,Rainy,Mountain Road,Evening,2.0,100.0,3.0,0.0,Moderate,Icy,Truck,59.0,57.0,Artificial Light,0.0
+413,Clear,Highway,Afternoon,,30.0,1.0,0.0,Low,Wet,Car,25.0,24.0,,0.0
+414,Snowy,Rural Road,Evening,0.0,100.0,5.0,,Low,Dry,Car,28.0,21.0,Artificial Light,1.0
+415,Clear,Highway,Afternoon,0.0,60.0,4.0,0.0,High,Under Construction,Car,24.0,19.0,Artificial Light,0.0
+416,Clear,Highway,Afternoon,0.0,100.0,5.0,0.0,Moderate,Dry,Car,43.0,41.0,Daylight,0.0
+417,Stormy,City Road,Morning,1.0,,1.0,1.0,Moderate,Under Construction,Motorcycle,52.0,50.0,Artificial Light,0.0
+418,Foggy,Highway,Afternoon,1.0,60.0,1.0,,Moderate,Under Construction,Car,63.0,62.0,Artificial Light,0.0
+419,Clear,Highway,Evening,1.0,80.0,2.0,0.0,Moderate,Under Construction,Car,24.0,21.0,No Light,0.0
+420,Clear,,Morning,,100.0,4.0,0.0,Moderate,Icy,Car,40.0,35.0,Artificial Light,1.0
+421,Clear,Highway,Morning,2.0,100.0,,0.0,Low,Dry,Car,40.0,33.0,,0.0
+422,Foggy,Highway,Morning,0.0,80.0,4.0,0.0,Low,Dry,Car,56.0,51.0,No Light,1.0
+423,Clear,City Road,Afternoon,,60.0,1.0,0.0,Low,,Car,49.0,47.0,No Light,0.0
+424,Rainy,Rural Road,Afternoon,2.0,60.0,4.0,0.0,Low,Dry,Car,46.0,40.0,Daylight,0.0
+425,Stormy,Highway,Night,1.0,100.0,3.0,0.0,Moderate,Icy,Car,29.0,21.0,Daylight,0.0
+426,Clear,Highway,Morning,0.0,60.0,4.0,0.0,Moderate,Icy,,,58.0,Artificial Light,1.0
+427,Rainy,Rural Road,Afternoon,1.0,60.0,4.0,0.0,Low,Dry,Car,52.0,44.0,Artificial Light,0.0
+428,Clear,Mountain Road,Evening,0.0,60.0,4.0,0.0,,Dry,Car,69.0,60.0,Daylight,0.0
+429,Rainy,Highway,Afternoon,1.0,60.0,2.0,0.0,Low,Dry,,41.0,41.0,,0.0
+430,Stormy,Mountain Road,Evening,2.0,50.0,3.0,0.0,Low,Dry,Bus,58.0,51.0,No Light,0.0
+431,Clear,Highway,Morning,2.0,120.0,3.0,0.0,Low,Wet,Car,43.0,40.0,Daylight,0.0
+432,Clear,Highway,Morning,2.0,100.0,2.0,0.0,Low,Dry,Car,48.0,43.0,Daylight,0.0
+433,Clear,Highway,Night,,100.0,5.0,1.0,Moderate,,Car,67.0,64.0,Daylight,1.0
+434,Foggy,Highway,Morning,1.0,30.0,2.0,0.0,Moderate,Wet,Car,59.0,55.0,Artificial Light,
+435,Clear,Highway,Afternoon,1.0,100.0,2.0,0.0,Low,Dry,Car,20.0,15.0,Artificial Light,0.0
+436,Rainy,Highway,Afternoon,2.0,60.0,5.0,0.0,Low,,Car,24.0,24.0,Artificial Light,1.0
+437,Clear,Rural Road,Night,0.0,60.0,5.0,0.0,Low,Wet,Truck,46.0,45.0,Artificial Light,0.0
+438,Clear,Highway,Night,2.0,60.0,4.0,0.0,Low,Dry,Car,55.0,51.0,Artificial Light,1.0
+439,Foggy,Rural Road,Night,0.0,50.0,1.0,,Low,Dry,Car,65.0,63.0,Daylight,1.0
+440,Clear,Highway,Evening,1.0,50.0,,0.0,Low,Dry,Car,44.0,40.0,Daylight,1.0
+441,Clear,City Road,Morning,2.0,50.0,1.0,0.0,Low,Dry,Car,67.0,66.0,Artificial Light,0.0
+442,Rainy,,Morning,2.0,50.0,4.0,0.0,Low,Dry,Truck,22.0,18.0,Daylight,0.0
+443,Clear,City Road,Evening,,80.0,4.0,0.0,Low,Dry,Car,58.0,57.0,Daylight,1.0
+444,Foggy,,Evening,2.0,100.0,4.0,0.0,Low,Dry,Car,27.0,18.0,Artificial Light,0.0
+445,Foggy,Highway,Evening,0.0,50.0,3.0,0.0,Low,Dry,Car,64.0,62.0,Artificial Light,0.0
+446,Snowy,City Road,Night,2.0,80.0,1.0,0.0,Low,Dry,Car,57.0,54.0,,0.0
+447,Clear,Highway,Afternoon,0.0,60.0,1.0,0.0,Moderate,Icy,Car,56.0,55.0,Daylight,0.0
+448,Clear,City Road,Morning,0.0,50.0,5.0,0.0,Moderate,Dry,Truck,68.0,61.0,Daylight,1.0
+449,Clear,Highway,Evening,2.0,80.0,4.0,0.0,Low,Under Construction,Car,,54.0,Artificial Light,0.0
+450,Clear,Highway,Evening,0.0,60.0,3.0,0.0,Moderate,Dry,Car,29.0,,No Light,1.0
+451,Clear,Highway,Afternoon,2.0,100.0,4.0,0.0,Low,Dry,Car,39.0,34.0,Artificial Light,1.0
+452,Rainy,Highway,Night,1.0,100.0,5.0,0.0,Low,Wet,Motorcycle,47.0,39.0,,0.0
+453,Snowy,City Road,Morning,1.0,100.0,2.0,0.0,Moderate,Dry,Car,,18.0,,0.0
+454,Stormy,Highway,Morning,0.0,60.0,1.0,0.0,Moderate,Dry,Car,21.0,19.0,Artificial Light,0.0
+455,Clear,Rural Road,Evening,,80.0,5.0,0.0,Low,Under Construction,Car,59.0,54.0,Artificial Light,0.0
+456,Stormy,Highway,Morning,2.0,60.0,4.0,0.0,Low,Wet,Car,31.0,29.0,Artificial Light,0.0
+457,Rainy,Mountain Road,Evening,1.0,60.0,,1.0,Low,Dry,Car,30.0,25.0,Artificial Light,1.0
+458,Rainy,Highway,,0.0,80.0,2.0,1.0,Low,Dry,Truck,23.0,19.0,Daylight,0.0
+459,Foggy,Mountain Road,Morning,2.0,193.0,11.0,0.0,Low,Icy,Truck,28.0,23.0,Artificial Light,1.0
+460,Clear,City Road,Evening,1.0,60.0,5.0,0.0,Moderate,Dry,Bus,36.0,33.0,No Light,1.0
+461,Rainy,Highway,Evening,0.0,100.0,1.0,0.0,Moderate,Wet,Car,67.0,64.0,Daylight,0.0
+462,Rainy,City Road,Evening,2.0,80.0,2.0,0.0,Moderate,Icy,Bus,55.0,54.0,No Light,1.0
+463,Clear,City Road,Morning,0.0,60.0,2.0,1.0,Low,Wet,Car,21.0,12.0,,
+464,Rainy,Highway,Morning,0.0,100.0,2.0,0.0,Moderate,Dry,Car,41.0,36.0,,0.0
+465,Clear,City Road,Evening,2.0,60.0,1.0,0.0,Low,Dry,Car,69.0,64.0,Daylight,0.0
+466,Foggy,Highway,Afternoon,0.0,80.0,2.0,0.0,Low,Wet,Car,40.0,36.0,Daylight,0.0
+467,Rainy,Highway,Afternoon,1.0,60.0,3.0,0.0,Low,Dry,Car,,43.0,Artificial Light,0.0
+468,Rainy,Rural Road,Evening,2.0,50.0,3.0,0.0,High,Icy,Car,23.0,15.0,Artificial Light,1.0
+469,,Highway,Evening,1.0,80.0,4.0,0.0,Low,,Car,62.0,55.0,Daylight,
+470,Rainy,City Road,Night,1.0,50.0,4.0,0.0,Moderate,Dry,Car,32.0,23.0,Artificial Light,0.0
+471,Snowy,Highway,Morning,2.0,100.0,2.0,0.0,Low,Wet,Car,46.0,44.0,Daylight,0.0
+472,Clear,Highway,Night,1.0,120.0,5.0,0.0,Moderate,Wet,Car,,67.0,Daylight,0.0
+473,Stormy,Highway,Evening,2.0,120.0,2.0,1.0,Low,Icy,Car,40.0,40.0,Artificial Light,0.0
+474,Clear,Highway,Afternoon,0.0,50.0,3.0,0.0,Low,Dry,Motorcycle,41.0,,Artificial Light,0.0
+475,Foggy,,Afternoon,1.0,50.0,4.0,0.0,Low,Dry,Truck,19.0,12.0,Daylight,1.0
+476,Clear,Highway,Evening,0.0,50.0,5.0,0.0,Low,Icy,Car,65.0,57.0,Artificial Light,0.0
+477,Snowy,Highway,Morning,1.0,100.0,1.0,0.0,Low,Dry,Car,68.0,60.0,Daylight,0.0
+478,Stormy,Highway,Morning,2.0,80.0,,0.0,Low,Wet,Car,40.0,37.0,Artificial Light,0.0
+479,Clear,City Road,Night,2.0,50.0,4.0,0.0,High,Dry,Car,42.0,40.0,No Light,
+480,Foggy,Rural Road,Evening,2.0,100.0,3.0,0.0,High,,Motorcycle,24.0,24.0,Daylight,0.0
+481,Rainy,Highway,Night,1.0,100.0,3.0,0.0,High,Wet,Truck,67.0,64.0,Daylight,0.0
+482,Rainy,Highway,Afternoon,2.0,80.0,3.0,0.0,Moderate,Icy,Car,30.0,28.0,Artificial Light,0.0
+483,Foggy,City Road,Morning,1.0,50.0,4.0,0.0,Low,Icy,Car,36.0,34.0,Daylight,1.0
+484,Rainy,City Road,Night,,80.0,4.0,0.0,Low,Dry,Car,60.0,51.0,Daylight,0.0
+485,Clear,Highway,Afternoon,1.0,80.0,4.0,1.0,Low,Under Construction,Truck,40.0,35.0,Daylight,0.0
+486,Snowy,City Road,Morning,1.0,80.0,3.0,0.0,Low,Dry,Car,37.0,33.0,Daylight,
+487,Rainy,City Road,Afternoon,2.0,50.0,5.0,,Moderate,Under Construction,Motorcycle,23.0,,Daylight,0.0
+488,Rainy,City Road,,0.0,60.0,5.0,0.0,Moderate,Wet,Car,48.0,41.0,Daylight,0.0
+489,Clear,Highway,Afternoon,1.0,60.0,5.0,0.0,Low,Dry,Car,30.0,,Daylight,0.0
+490,Clear,Rural Road,Morning,2.0,60.0,4.0,0.0,Low,Icy,Car,49.0,45.0,Artificial Light,0.0
+491,Snowy,Highway,Afternoon,2.0,80.0,2.0,1.0,Moderate,Icy,Truck,,40.0,No Light,1.0
+492,Snowy,Highway,Night,1.0,50.0,5.0,0.0,Moderate,Wet,Car,43.0,39.0,Artificial Light,
+493,Clear,Mountain Road,Evening,0.0,60.0,3.0,0.0,Low,Icy,Car,30.0,25.0,Artificial Light,0.0
+494,Snowy,Highway,Evening,2.0,50.0,,0.0,Moderate,Dry,Car,25.0,22.0,Artificial Light,0.0
+495,Stormy,Highway,Night,0.0,50.0,2.0,0.0,High,Dry,Car,67.0,61.0,Daylight,1.0
+496,Foggy,Highway,Afternoon,0.0,100.0,4.0,0.0,Low,Dry,Truck,28.0,25.0,Artificial Light,1.0
+497,Clear,City Road,Morning,1.0,120.0,1.0,0.0,High,Dry,Car,59.0,54.0,Daylight,0.0
+498,Rainy,Highway,Afternoon,0.0,,3.0,0.0,Moderate,Under Construction,Car,54.0,49.0,Daylight,0.0
+499,Rainy,Highway,,0.0,100.0,1.0,0.0,Low,Icy,Car,,67.0,Artificial Light,0.0
+500,Clear,Rural Road,Morning,1.0,80.0,4.0,0.0,Moderate,Icy,Car,60.0,51.0,Artificial Light,0.0
+501,Rainy,Highway,Morning,1.0,30.0,3.0,0.0,Low,Dry,Car,44.0,39.0,Artificial Light,0.0
+502,Foggy,Highway,Afternoon,1.0,30.0,5.0,0.0,Low,Under Construction,Car,61.0,61.0,Daylight,1.0
+503,Rainy,City Road,Afternoon,1.0,,5.0,0.0,Moderate,Dry,Car,30.0,27.0,Artificial Light,1.0
+504,Clear,Highway,Night,1.0,80.0,,1.0,Moderate,Dry,Car,33.0,25.0,Daylight,0.0
+505,Rainy,Highway,Evening,0.0,60.0,3.0,0.0,High,Icy,Car,18.0,9.0,Artificial Light,0.0
+506,Snowy,Rural Road,Night,2.0,80.0,3.0,1.0,Low,Dry,Car,51.0,44.0,Artificial Light,0.0
+507,Clear,Highway,Afternoon,1.0,50.0,4.0,0.0,Moderate,Dry,Motorcycle,58.0,55.0,Daylight,0.0
+508,Clear,Highway,Afternoon,2.0,100.0,1.0,1.0,Moderate,Icy,Car,,45.0,Daylight,0.0
+509,Clear,Rural Road,Evening,1.0,80.0,5.0,0.0,Moderate,Wet,,36.0,28.0,Daylight,0.0
+510,Clear,Rural Road,Evening,0.0,60.0,5.0,0.0,Low,Dry,Truck,52.0,46.0,Daylight,1.0
+511,Snowy,City Road,Evening,0.0,50.0,1.0,0.0,Moderate,Wet,Car,69.0,61.0,Daylight,0.0
+512,Rainy,Highway,Evening,0.0,30.0,3.0,0.0,Low,Dry,Car,35.0,34.0,No Light,0.0
+513,Snowy,City Road,Night,2.0,60.0,2.0,1.0,High,Dry,Car,20.0,14.0,Daylight,0.0
+514,Rainy,Rural Road,Evening,2.0,50.0,4.0,0.0,Moderate,Dry,Bus,61.0,60.0,Daylight,0.0
+515,Rainy,Highway,Afternoon,1.0,50.0,5.0,0.0,Moderate,Icy,Truck,39.0,39.0,Artificial Light,0.0
+516,Snowy,City Road,,1.0,60.0,2.0,0.0,,Dry,Car,43.0,37.0,Daylight,1.0
+517,Rainy,Highway,Evening,1.0,100.0,4.0,1.0,Low,Wet,Car,,40.0,Artificial Light,0.0
+518,Clear,City Road,Morning,2.0,60.0,1.0,0.0,Low,Dry,,46.0,40.0,Artificial Light,0.0
+519,Snowy,Highway,Night,2.0,80.0,4.0,0.0,Low,Icy,Car,68.0,66.0,Daylight,0.0
+520,Rainy,,Evening,2.0,30.0,3.0,0.0,Low,Dry,Truck,64.0,63.0,Daylight,
+521,Clear,Highway,Morning,0.0,60.0,1.0,,Low,Dry,Car,66.0,57.0,Artificial Light,0.0
+522,Rainy,Mountain Road,Morning,2.0,100.0,1.0,0.0,Moderate,Dry,Car,61.0,55.0,Artificial Light,0.0
+523,Clear,Rural Road,Evening,2.0,50.0,2.0,0.0,High,Dry,Car,58.0,50.0,Artificial Light,0.0
+524,Clear,Rural Road,Afternoon,2.0,60.0,4.0,1.0,Low,Under Construction,Car,29.0,,Artificial Light,1.0
+525,Clear,Highway,Afternoon,1.0,100.0,5.0,1.0,High,Under Construction,Car,42.0,41.0,No Light,1.0
+526,Clear,Highway,Night,2.0,50.0,3.0,0.0,Low,Icy,Car,43.0,37.0,Daylight,0.0
+527,Clear,City Road,Night,1.0,189.0,14.0,0.0,Moderate,,Car,33.0,31.0,Daylight,1.0
+528,Foggy,City Road,Evening,2.0,30.0,2.0,0.0,Low,Wet,Car,63.0,62.0,Daylight,0.0
+529,Rainy,Highway,Evening,1.0,60.0,4.0,0.0,Low,Icy,Car,54.0,52.0,Artificial Light,0.0
+530,Rainy,,Evening,1.0,50.0,2.0,0.0,Low,Dry,Truck,49.0,47.0,Artificial Light,1.0
+531,Clear,City Road,Afternoon,1.0,30.0,3.0,0.0,Low,Wet,Motorcycle,26.0,22.0,Daylight,0.0
+532,Foggy,Highway,Afternoon,0.0,60.0,5.0,1.0,Low,Dry,Car,57.0,56.0,Daylight,1.0
+533,Clear,Highway,Evening,0.0,100.0,2.0,0.0,Low,Dry,Motorcycle,34.0,30.0,Artificial Light,0.0
+534,Clear,Rural Road,Evening,2.0,60.0,5.0,0.0,Low,Icy,Car,23.0,,No Light,1.0
+535,Clear,City Road,Night,1.0,50.0,5.0,0.0,Low,Dry,Motorcycle,33.0,31.0,Daylight,0.0
+536,Rainy,Rural Road,Morning,0.0,80.0,4.0,1.0,Low,Under Construction,Car,52.0,52.0,Artificial Light,0.0
+537,Rainy,City Road,Evening,0.0,100.0,,1.0,Low,Icy,Car,67.0,64.0,Artificial Light,0.0
+538,Foggy,Highway,Night,0.0,60.0,5.0,,Low,Dry,Car,69.0,,Daylight,0.0
+539,Clear,City Road,Morning,1.0,60.0,3.0,0.0,Moderate,Dry,Truck,23.0,14.0,Daylight,0.0
+540,Clear,City Road,Night,0.0,,4.0,0.0,Low,Dry,Motorcycle,63.0,62.0,Daylight,0.0
+541,Rainy,City Road,Morning,1.0,80.0,2.0,0.0,Low,Icy,Car,55.0,50.0,No Light,0.0
+542,Clear,Rural Road,Evening,1.0,100.0,1.0,0.0,Low,Icy,Car,62.0,55.0,Artificial Light,1.0
+543,Snowy,Rural Road,Evening,1.0,80.0,,0.0,Low,Wet,Car,27.0,18.0,Daylight,1.0
+544,Clear,Highway,Afternoon,2.0,80.0,2.0,1.0,Moderate,Dry,Car,44.0,41.0,,0.0
+545,Clear,Highway,Morning,,50.0,4.0,0.0,Moderate,Dry,Motorcycle,32.0,27.0,Daylight,1.0
+546,Snowy,Highway,Afternoon,1.0,60.0,4.0,0.0,Moderate,Dry,Truck,48.0,44.0,No Light,1.0
+547,Foggy,,Morning,0.0,30.0,3.0,0.0,Low,Icy,Car,21.0,19.0,No Light,1.0
+548,Snowy,Highway,Afternoon,0.0,60.0,1.0,0.0,High,Under Construction,Car,22.0,17.0,Artificial Light,0.0
+549,Rainy,Rural Road,Afternoon,1.0,60.0,3.0,0.0,Low,Dry,Car,20.0,13.0,Daylight,1.0
+550,Clear,,Morning,1.0,120.0,,1.0,Low,Under Construction,Car,60.0,53.0,Daylight,0.0
+551,Clear,Highway,,1.0,60.0,3.0,0.0,Moderate,Under Construction,Truck,41.0,36.0,No Light,0.0
+552,Clear,City Road,Afternoon,1.0,100.0,3.0,0.0,Moderate,Under Construction,Car,38.0,38.0,Daylight,1.0
+553,Stormy,Highway,Afternoon,1.0,60.0,3.0,0.0,Low,Dry,,42.0,34.0,Artificial Light,0.0
+554,Rainy,City Road,Night,0.0,30.0,1.0,1.0,Moderate,Dry,Motorcycle,,63.0,Artificial Light,1.0
+555,Snowy,Highway,Morning,2.0,60.0,1.0,0.0,High,Dry,Car,53.0,52.0,Daylight,0.0
+556,Foggy,Highway,Night,1.0,30.0,4.0,0.0,,Under Construction,Car,58.0,56.0,Daylight,0.0
+557,Clear,Highway,Morning,0.0,100.0,4.0,0.0,Low,Dry,Motorcycle,24.0,20.0,Artificial Light,1.0
+558,Stormy,Rural Road,Afternoon,0.0,,1.0,1.0,Low,Dry,Car,41.0,41.0,Daylight,1.0
+559,Snowy,,Night,0.0,100.0,2.0,0.0,Moderate,Dry,Car,40.0,40.0,Daylight,0.0
+560,Foggy,City Road,Evening,1.0,185.0,13.0,0.0,,Dry,Car,68.0,,Artificial Light,0.0
+561,Rainy,Highway,Afternoon,0.0,60.0,1.0,,Low,Under Construction,,34.0,30.0,Daylight,0.0
+562,Rainy,City Road,,1.0,50.0,,0.0,High,Icy,Car,35.0,26.0,Artificial Light,0.0
+563,Rainy,,Morning,0.0,,4.0,1.0,Low,Dry,Car,48.0,48.0,Artificial Light,0.0
+564,Rainy,Highway,Morning,0.0,80.0,1.0,0.0,Low,Dry,Car,22.0,22.0,Artificial Light,0.0
+565,,City Road,Afternoon,0.0,50.0,5.0,0.0,,Wet,Car,29.0,27.0,Daylight,0.0
+566,Clear,Highway,Morning,2.0,100.0,2.0,1.0,Low,Wet,Car,,17.0,Artificial Light,0.0
+567,Stormy,Highway,Morning,0.0,60.0,3.0,0.0,Moderate,Dry,Car,54.0,53.0,Daylight,1.0
+568,Clear,Highway,Night,1.0,50.0,3.0,0.0,Low,Dry,Car,46.0,44.0,Artificial Light,1.0
+569,Clear,Highway,Morning,2.0,30.0,2.0,0.0,Low,Dry,Car,32.0,26.0,No Light,0.0
+570,Clear,Highway,Morning,2.0,80.0,2.0,0.0,Low,Dry,Truck,40.0,37.0,Artificial Light,1.0
+571,Stormy,Rural Road,,0.0,199.0,11.0,0.0,Low,Dry,Car,47.0,47.0,Artificial Light,1.0
+572,Clear,,Evening,1.0,60.0,5.0,0.0,Moderate,Wet,Car,34.0,33.0,Artificial Light,0.0
+573,Rainy,City Road,Afternoon,2.0,60.0,1.0,0.0,Moderate,Dry,Car,32.0,30.0,Daylight,1.0
+574,Foggy,Highway,Afternoon,0.0,50.0,,0.0,Moderate,Dry,Bus,43.0,39.0,Daylight,0.0
+575,Foggy,Highway,Evening,1.0,50.0,1.0,0.0,Moderate,Dry,Car,46.0,39.0,Daylight,0.0
+576,Rainy,Highway,Morning,2.0,80.0,1.0,0.0,Moderate,Wet,Motorcycle,42.0,,Daylight,0.0
+577,Snowy,Rural Road,Afternoon,1.0,50.0,3.0,0.0,Moderate,Dry,Car,67.0,62.0,Artificial Light,0.0
+578,Clear,City Road,Morning,0.0,60.0,5.0,0.0,Low,Wet,Motorcycle,53.0,48.0,Artificial Light,1.0
+579,Foggy,Highway,Morning,2.0,50.0,4.0,1.0,Low,Wet,Car,53.0,50.0,Artificial Light,0.0
+580,Rainy,Mountain Road,Morning,2.0,50.0,1.0,0.0,Moderate,Dry,Motorcycle,61.0,54.0,Artificial Light,0.0
+581,Rainy,Rural Road,,0.0,192.0,10.0,1.0,Moderate,Dry,Motorcycle,60.0,53.0,Artificial Light,0.0
+582,Foggy,Rural Road,Afternoon,1.0,30.0,4.0,1.0,Moderate,,Car,29.0,26.0,Artificial Light,0.0
+583,Rainy,City Road,Evening,2.0,80.0,4.0,0.0,Low,Icy,Car,22.0,19.0,Artificial Light,1.0
+584,Rainy,Highway,Morning,2.0,,4.0,1.0,Low,Wet,Car,52.0,45.0,Artificial Light,
+585,Clear,City Road,Afternoon,0.0,120.0,1.0,0.0,Moderate,Dry,Car,46.0,40.0,Artificial Light,1.0
+586,Clear,Rural Road,Afternoon,,50.0,5.0,0.0,Moderate,Dry,Car,58.0,58.0,Artificial Light,1.0
+587,Rainy,Highway,Morning,0.0,100.0,4.0,0.0,Low,Dry,Car,39.0,35.0,,0.0
+588,Clear,City Road,Evening,0.0,60.0,4.0,0.0,High,Dry,Car,58.0,49.0,No Light,0.0
+589,Rainy,,Morning,0.0,30.0,,0.0,Low,Icy,Car,59.0,56.0,No Light,0.0
+590,Rainy,City Road,Night,0.0,60.0,2.0,0.0,Low,Dry,Car,35.0,34.0,Artificial Light,0.0
+591,Foggy,,Morning,0.0,100.0,3.0,0.0,High,Icy,Car,46.0,43.0,Artificial Light,0.0
+592,Clear,City Road,Evening,1.0,50.0,3.0,0.0,Low,Dry,Car,36.0,29.0,Daylight,
+593,Clear,Highway,Night,1.0,80.0,3.0,1.0,Low,Dry,Car,32.0,24.0,Artificial Light,0.0
+594,Clear,City Road,Morning,0.0,80.0,2.0,0.0,Low,Dry,Car,19.0,14.0,Artificial Light,0.0
+595,Clear,Highway,Morning,1.0,100.0,5.0,0.0,Low,Under Construction,Motorcycle,19.0,13.0,Daylight,0.0
+596,Rainy,City Road,Afternoon,1.0,60.0,3.0,,Low,Wet,Car,21.0,17.0,Artificial Light,1.0
+597,Snowy,City Road,Afternoon,1.0,50.0,2.0,0.0,Low,Dry,Car,34.0,27.0,Artificial Light,0.0
+598,Clear,Highway,Evening,2.0,80.0,3.0,0.0,Moderate,Dry,Truck,48.0,40.0,Daylight,0.0
+599,,Highway,Evening,1.0,30.0,5.0,0.0,Low,Dry,Car,59.0,59.0,Daylight,0.0
+600,Rainy,Rural Road,Afternoon,2.0,100.0,2.0,,Low,Icy,Car,,59.0,Artificial Light,0.0
+601,Stormy,,Evening,2.0,30.0,3.0,0.0,,Icy,Car,46.0,46.0,No Light,1.0
+602,Rainy,Rural Road,Afternoon,1.0,50.0,,0.0,Low,Wet,Car,49.0,46.0,Artificial Light,0.0
+603,Rainy,Highway,Morning,0.0,,4.0,0.0,Low,Wet,Car,48.0,41.0,Artificial Light,0.0
+604,Rainy,Highway,Evening,2.0,80.0,2.0,0.0,High,Dry,,52.0,46.0,Daylight,0.0
+605,Rainy,City Road,Evening,1.0,213.0,14.0,0.0,Low,Dry,Car,59.0,58.0,No Light,0.0
+606,Clear,City Road,Afternoon,1.0,100.0,1.0,0.0,Low,Under Construction,Truck,49.0,40.0,Artificial Light,0.0
+607,Clear,Rural Road,Afternoon,2.0,60.0,3.0,0.0,Low,Icy,Bus,48.0,,Daylight,1.0
+608,Rainy,Highway,Afternoon,1.0,30.0,3.0,0.0,,Dry,Motorcycle,40.0,32.0,Daylight,0.0
+609,,City Road,Morning,1.0,50.0,1.0,0.0,Low,Under Construction,Motorcycle,59.0,50.0,Daylight,0.0
+610,Foggy,City Road,Evening,0.0,50.0,3.0,0.0,Low,Under Construction,Motorcycle,61.0,61.0,Daylight,1.0
+611,,City Road,Morning,1.0,60.0,2.0,0.0,Moderate,Dry,Car,33.0,31.0,Artificial Light,0.0
+612,Foggy,City Road,Afternoon,2.0,80.0,,0.0,Low,Icy,Car,45.0,42.0,Daylight,
+613,Rainy,City Road,Afternoon,,30.0,3.0,0.0,Low,Dry,Car,,54.0,No Light,0.0
+614,Clear,Rural Road,Morning,1.0,50.0,5.0,0.0,High,Icy,Truck,50.0,41.0,No Light,1.0
+615,Clear,Highway,Afternoon,1.0,30.0,5.0,0.0,Moderate,Dry,Car,63.0,55.0,Artificial Light,1.0
+616,Snowy,Highway,Morning,,100.0,3.0,0.0,Low,Under Construction,Car,64.0,57.0,Artificial Light,1.0
+617,Rainy,Rural Road,Night,0.0,30.0,3.0,1.0,Low,Dry,Car,51.0,42.0,No Light,0.0
+618,Foggy,Rural Road,Afternoon,1.0,60.0,4.0,,High,Icy,Car,40.0,35.0,Artificial Light,
+619,Clear,City Road,Morning,1.0,100.0,4.0,,Low,Icy,,53.0,48.0,Artificial Light,0.0
+620,Clear,City Road,Afternoon,2.0,50.0,2.0,0.0,Moderate,Wet,Car,34.0,30.0,Daylight,1.0
+621,Clear,Rural Road,Afternoon,0.0,80.0,1.0,0.0,Low,,Car,64.0,61.0,Daylight,0.0
+622,,Highway,Evening,1.0,50.0,2.0,0.0,Low,Under Construction,Truck,61.0,52.0,Daylight,1.0
+623,Clear,Rural Road,Afternoon,2.0,120.0,5.0,0.0,Low,Wet,Car,19.0,17.0,Daylight,0.0
+624,Foggy,Mountain Road,Morning,2.0,,4.0,0.0,Moderate,Dry,Motorcycle,45.0,40.0,No Light,0.0
+625,,Highway,Morning,2.0,100.0,5.0,0.0,,Wet,,27.0,24.0,Artificial Light,0.0
+626,Rainy,Highway,Afternoon,2.0,30.0,1.0,0.0,Low,Icy,Car,39.0,30.0,Artificial Light,0.0
+627,Clear,Mountain Road,Night,0.0,50.0,1.0,0.0,Low,Icy,Motorcycle,40.0,39.0,Artificial Light,0.0
+628,Rainy,Highway,Evening,2.0,,2.0,0.0,Low,Dry,Car,18.0,18.0,Daylight,0.0
+629,Rainy,Highway,Night,2.0,50.0,5.0,0.0,Moderate,Under Construction,Car,67.0,62.0,Daylight,0.0
+630,Clear,Rural Road,Evening,0.0,60.0,5.0,0.0,Low,Dry,Truck,52.0,46.0,Daylight,1.0
+631,Rainy,Rural Road,Evening,0.0,80.0,3.0,1.0,Moderate,Dry,Truck,47.0,40.0,Daylight,0.0
+632,Clear,Rural Road,Afternoon,0.0,30.0,4.0,0.0,Low,Dry,Car,54.0,53.0,Daylight,0.0
+633,,Highway,Afternoon,1.0,30.0,3.0,0.0,Low,Dry,Motorcycle,47.0,46.0,Artificial Light,0.0
+634,Foggy,City Road,Morning,2.0,60.0,4.0,0.0,Moderate,Dry,Car,36.0,32.0,Artificial Light,0.0
+635,Clear,Highway,Morning,0.0,100.0,5.0,0.0,Low,Wet,Motorcycle,41.0,32.0,Artificial Light,1.0
+636,Rainy,Highway,Evening,2.0,30.0,3.0,0.0,Low,Dry,,64.0,63.0,Daylight,0.0
+637,Rainy,Mountain Road,Morning,0.0,50.0,4.0,0.0,Moderate,Under Construction,Car,41.0,33.0,Daylight,0.0
+638,Foggy,City Road,Evening,0.0,60.0,2.0,1.0,Low,Icy,Car,29.0,28.0,Daylight,0.0
+639,Snowy,City Road,Evening,2.0,100.0,5.0,0.0,Low,Icy,Truck,60.0,57.0,Artificial Light,0.0
+640,Clear,City Road,Evening,2.0,60.0,2.0,0.0,Moderate,Dry,Car,51.0,44.0,Artificial Light,0.0
+641,Rainy,Highway,Afternoon,0.0,80.0,4.0,0.0,High,Dry,Car,42.0,34.0,Artificial Light,
+642,Foggy,Rural Road,Night,1.0,120.0,2.0,0.0,Moderate,Icy,Bus,68.0,67.0,Artificial Light,0.0
+643,Foggy,Highway,Morning,1.0,80.0,,0.0,Low,Dry,Car,21.0,13.0,Daylight,0.0
+644,Rainy,Highway,Morning,1.0,80.0,1.0,0.0,Low,Dry,Car,26.0,24.0,No Light,0.0
+645,Stormy,City Road,Afternoon,2.0,100.0,4.0,0.0,Low,Icy,Car,68.0,65.0,No Light,0.0
+646,Rainy,Highway,Afternoon,1.0,120.0,1.0,0.0,Low,Dry,Car,27.0,26.0,Daylight,0.0
+647,Snowy,City Road,Evening,1.0,80.0,5.0,0.0,Low,Dry,,30.0,22.0,Daylight,0.0
+648,Rainy,Highway,Afternoon,0.0,80.0,4.0,0.0,Moderate,Wet,Car,66.0,61.0,Artificial Light,0.0
+649,,City Road,,2.0,50.0,1.0,1.0,Low,Dry,,,55.0,Daylight,1.0
+650,Clear,Rural Road,Night,0.0,60.0,2.0,0.0,Low,Dry,Car,38.0,34.0,Artificial Light,1.0
+651,Rainy,Highway,Afternoon,1.0,120.0,3.0,0.0,High,Wet,Bus,64.0,61.0,Artificial Light,0.0
+652,Rainy,Highway,Evening,0.0,60.0,,0.0,Moderate,Dry,Car,26.0,25.0,Artificial Light,1.0
+653,Clear,Mountain Road,Evening,1.0,50.0,3.0,0.0,Low,Dry,Car,48.0,45.0,Artificial Light,0.0
+654,Clear,,Afternoon,2.0,60.0,2.0,0.0,Moderate,,Car,37.0,30.0,Daylight,0.0
+655,Foggy,Rural Road,Afternoon,1.0,80.0,1.0,,Low,Dry,Car,52.0,52.0,Artificial Light,1.0
+656,Clear,Highway,Morning,0.0,60.0,1.0,0.0,,Dry,Car,48.0,39.0,Daylight,1.0
+657,Clear,Rural Road,Night,1.0,50.0,2.0,1.0,Low,Dry,Motorcycle,42.0,35.0,Artificial Light,1.0
+658,Snowy,Rural Road,Evening,2.0,30.0,4.0,0.0,High,Dry,Truck,45.0,45.0,Daylight,0.0
+659,Rainy,Highway,Evening,0.0,80.0,4.0,0.0,Moderate,Dry,Car,28.0,20.0,Artificial Light,1.0
+660,Foggy,Mountain Road,Afternoon,1.0,60.0,4.0,0.0,Low,Under Construction,Car,46.0,42.0,Artificial Light,0.0
+661,Rainy,Highway,Night,2.0,100.0,1.0,,,Dry,Car,,38.0,Daylight,0.0
+662,Clear,Highway,Evening,0.0,50.0,4.0,0.0,Low,Icy,Car,37.0,31.0,Artificial Light,1.0
+663,Foggy,City Road,Afternoon,0.0,50.0,2.0,0.0,Low,Icy,Car,58.0,49.0,Artificial Light,1.0
+664,Foggy,Highway,Morning,2.0,60.0,5.0,0.0,High,Wet,Car,51.0,47.0,Artificial Light,0.0
+665,Clear,Rural Road,Evening,1.0,100.0,1.0,1.0,High,Dry,Truck,54.0,46.0,Artificial Light,0.0
+666,Rainy,Highway,Morning,2.0,60.0,3.0,0.0,High,Dry,Car,48.0,48.0,Artificial Light,1.0
+667,Foggy,,Afternoon,1.0,80.0,2.0,0.0,Low,Dry,Car,27.0,25.0,Daylight,0.0
+668,Clear,City Road,Morning,2.0,198.0,11.0,0.0,Low,Under Construction,Car,62.0,60.0,Artificial Light,0.0
+669,Clear,City Road,Morning,0.0,60.0,2.0,0.0,Low,Under Construction,Car,64.0,58.0,No Light,0.0
+670,Clear,Rural Road,Afternoon,0.0,100.0,4.0,1.0,Low,Under Construction,Car,21.0,,Artificial Light,0.0
+671,Clear,City Road,Morning,1.0,192.0,10.0,0.0,Low,Dry,Car,19.0,18.0,Artificial Light,1.0
+672,Clear,Rural Road,Evening,2.0,80.0,2.0,0.0,,Dry,Car,35.0,31.0,Daylight,0.0
+673,Foggy,City Road,Evening,2.0,60.0,4.0,0.0,Low,Icy,Car,31.0,30.0,Daylight,1.0
+674,Snowy,Rural Road,Afternoon,2.0,30.0,5.0,1.0,Moderate,Dry,Car,56.0,50.0,Artificial Light,1.0
+675,Foggy,Rural Road,Morning,,60.0,5.0,0.0,Low,Icy,Truck,32.0,31.0,No Light,0.0
+676,Clear,Highway,Afternoon,0.0,80.0,5.0,0.0,Low,Dry,Car,22.0,14.0,Daylight,0.0
+677,Snowy,Highway,Afternoon,2.0,80.0,1.0,0.0,Low,Dry,Car,54.0,54.0,Artificial Light,0.0
+678,,City Road,Night,,50.0,2.0,0.0,Low,Icy,Car,38.0,38.0,,0.0
+679,,Rural Road,Morning,2.0,50.0,2.0,,Low,Icy,Car,24.0,24.0,Daylight,0.0
+680,Snowy,City Road,Evening,0.0,60.0,5.0,0.0,Moderate,Dry,Car,23.0,19.0,,1.0
+681,Clear,Highway,Night,2.0,30.0,2.0,1.0,Moderate,Dry,Car,60.0,55.0,Artificial Light,1.0
+682,Snowy,Highway,Afternoon,2.0,50.0,4.0,0.0,,Wet,Car,44.0,35.0,Daylight,0.0
+683,Foggy,City Road,Afternoon,1.0,80.0,5.0,0.0,High,Wet,Car,37.0,34.0,Daylight,0.0
+684,Foggy,Mountain Road,Night,1.0,60.0,1.0,0.0,Moderate,Under Construction,Car,58.0,58.0,Daylight,0.0
+685,Foggy,Highway,Morning,1.0,50.0,3.0,,Low,Wet,Car,57.0,53.0,No Light,0.0
+686,Stormy,Highway,Evening,0.0,,1.0,0.0,,Dry,Car,23.0,20.0,Artificial Light,1.0
+687,Rainy,City Road,Afternoon,1.0,50.0,3.0,0.0,Low,Dry,,,42.0,Daylight,0.0
+688,Rainy,Highway,Night,,80.0,4.0,0.0,Moderate,Dry,Car,69.0,66.0,,0.0
+689,Snowy,Highway,,0.0,100.0,3.0,0.0,Low,Icy,Car,29.0,,Artificial Light,
+690,Rainy,Mountain Road,Afternoon,2.0,30.0,5.0,0.0,Low,Dry,Car,27.0,25.0,Artificial Light,0.0
+691,Clear,City Road,Afternoon,1.0,30.0,1.0,0.0,Low,Wet,Car,65.0,61.0,Artificial Light,0.0
+692,Rainy,Highway,Morning,1.0,30.0,3.0,0.0,Low,Dry,Motorcycle,69.0,64.0,Daylight,0.0
+693,Clear,,Evening,2.0,50.0,3.0,0.0,Moderate,Dry,Car,54.0,47.0,No Light,0.0
+694,Snowy,City Road,Afternoon,0.0,,4.0,0.0,High,Icy,Car,52.0,51.0,Daylight,0.0
+695,Snowy,Highway,Morning,1.0,80.0,4.0,1.0,Moderate,Dry,Car,33.0,27.0,Daylight,0.0
+696,Clear,Highway,Evening,1.0,80.0,,0.0,Moderate,Wet,Motorcycle,48.0,42.0,Daylight,1.0
+697,Clear,Highway,Morning,2.0,60.0,5.0,0.0,Low,Wet,Motorcycle,42.0,39.0,Daylight,0.0
+698,Rainy,City Road,Evening,1.0,80.0,3.0,0.0,High,Icy,Truck,27.0,20.0,Daylight,1.0
+699,Foggy,City Road,Afternoon,2.0,50.0,2.0,0.0,Moderate,Wet,Truck,55.0,47.0,Daylight,0.0
+700,Clear,City Road,Evening,0.0,100.0,,1.0,Low,Dry,Truck,47.0,40.0,Daylight,1.0
+701,Clear,Highway,Evening,1.0,60.0,4.0,0.0,Moderate,Icy,Car,39.0,35.0,Daylight,1.0
+702,Rainy,Mountain Road,Morning,1.0,60.0,,0.0,Low,Dry,Car,59.0,51.0,Artificial Light,0.0
+703,Rainy,Highway,Evening,0.0,120.0,2.0,0.0,Low,Dry,Truck,,33.0,Artificial Light,0.0
+704,Foggy,City Road,Evening,0.0,80.0,3.0,0.0,Moderate,Under Construction,Motorcycle,22.0,18.0,Daylight,0.0
+705,Clear,Highway,,1.0,206.0,11.0,0.0,Low,Icy,Car,39.0,35.0,,0.0
+706,Clear,City Road,Afternoon,0.0,60.0,3.0,0.0,Low,Dry,Truck,22.0,13.0,Daylight,1.0
+707,,Rural Road,Evening,2.0,,3.0,0.0,Moderate,Dry,Car,20.0,,Artificial Light,0.0
+708,,Highway,,1.0,50.0,4.0,0.0,Low,Dry,Car,52.0,48.0,Daylight,0.0
+709,Clear,Highway,Afternoon,1.0,80.0,5.0,0.0,Moderate,Dry,Car,38.0,35.0,Daylight,0.0
+710,Rainy,Highway,Morning,1.0,50.0,3.0,1.0,,Under Construction,Motorcycle,27.0,22.0,Daylight,0.0
+711,Clear,Highway,Night,2.0,60.0,1.0,,Moderate,Wet,Car,45.0,42.0,Daylight,0.0
+712,Rainy,Highway,Night,2.0,80.0,3.0,0.0,Low,Dry,Car,41.0,33.0,Artificial Light,0.0
+713,Clear,City Road,Afternoon,2.0,,2.0,0.0,Low,Icy,Car,53.0,51.0,Artificial Light,0.0
+714,Clear,Highway,Morning,0.0,60.0,1.0,0.0,Moderate,Under Construction,Truck,42.0,38.0,Artificial Light,
+715,Rainy,Mountain Road,Evening,0.0,212.0,10.0,0.0,Low,Wet,Truck,27.0,27.0,Artificial Light,0.0
+716,Clear,Highway,Evening,2.0,,2.0,0.0,Moderate,,Car,59.0,57.0,Daylight,1.0
+717,Rainy,Highway,Night,1.0,30.0,5.0,0.0,Low,Icy,Car,55.0,54.0,Daylight,0.0
+718,Snowy,Highway,Morning,2.0,100.0,2.0,0.0,Moderate,Wet,Car,26.0,17.0,Daylight,0.0
+719,Rainy,Highway,Afternoon,2.0,60.0,1.0,,Low,Icy,Car,57.0,55.0,Artificial Light,0.0
+720,Clear,City Road,Afternoon,0.0,60.0,5.0,0.0,Moderate,Dry,Car,36.0,32.0,Artificial Light,0.0
+721,Foggy,Highway,Night,1.0,60.0,1.0,0.0,Moderate,Icy,,60.0,52.0,No Light,1.0
+722,Snowy,Highway,Afternoon,2.0,30.0,1.0,0.0,Moderate,Dry,Truck,39.0,37.0,Artificial Light,1.0
+723,Foggy,City Road,Night,1.0,80.0,4.0,0.0,Moderate,Dry,Car,24.0,22.0,Daylight,0.0
+724,Clear,Mountain Road,Evening,1.0,30.0,5.0,0.0,Moderate,Icy,Car,19.0,,Artificial Light,0.0
+725,Rainy,City Road,Morning,0.0,80.0,5.0,0.0,Moderate,Dry,Car,69.0,65.0,Daylight,0.0
+726,Rainy,Highway,Night,1.0,30.0,4.0,1.0,Low,Icy,Car,54.0,51.0,No Light,0.0
+727,Rainy,City Road,Morning,2.0,50.0,4.0,0.0,Low,Dry,Car,58.0,58.0,Daylight,1.0
+728,Clear,Highway,Evening,1.0,60.0,1.0,0.0,Moderate,Dry,Motorcycle,27.0,25.0,Daylight,
+729,Stormy,City Road,Evening,1.0,100.0,4.0,,Low,Under Construction,Car,66.0,65.0,Artificial Light,0.0
+730,Clear,Highway,Afternoon,2.0,181.0,10.0,0.0,Moderate,Under Construction,Car,62.0,54.0,,0.0
+731,Foggy,City Road,Night,1.0,60.0,1.0,0.0,Low,Dry,Truck,32.0,26.0,Artificial Light,1.0
+732,Stormy,Rural Road,Afternoon,2.0,30.0,2.0,0.0,Moderate,Icy,Motorcycle,47.0,43.0,Daylight,0.0
+733,Rainy,Rural Road,Evening,1.0,60.0,2.0,0.0,High,Dry,Car,20.0,18.0,Daylight,0.0
+734,Clear,City Road,Evening,0.0,50.0,1.0,,Low,,Car,32.0,31.0,Artificial Light,1.0
+735,Clear,Highway,Evening,1.0,80.0,2.0,0.0,Moderate,Under Construction,Car,24.0,21.0,No Light,0.0
+736,Rainy,Highway,,1.0,,4.0,0.0,Low,Dry,Car,51.0,44.0,,0.0
+737,Clear,Highway,Night,1.0,80.0,3.0,0.0,Low,Icy,Car,46.0,39.0,Daylight,0.0
+738,Clear,Rural Road,Afternoon,1.0,50.0,3.0,1.0,Low,Icy,Car,,30.0,Daylight,0.0
+739,Rainy,,Night,1.0,80.0,4.0,0.0,Low,Dry,,64.0,56.0,Daylight,1.0
+740,Clear,Highway,Afternoon,1.0,60.0,4.0,0.0,Low,Wet,Car,33.0,24.0,Artificial Light,1.0
+741,Clear,City Road,Morning,2.0,80.0,5.0,0.0,Moderate,Dry,Car,33.0,30.0,Artificial Light,0.0
+742,Clear,City Road,Evening,0.0,60.0,5.0,0.0,Low,Dry,Truck,66.0,62.0,Daylight,1.0
+743,Rainy,,Evening,1.0,60.0,4.0,0.0,,Dry,Car,,62.0,Artificial Light,0.0
+744,Clear,Highway,Afternoon,1.0,60.0,2.0,1.0,Moderate,Icy,Motorcycle,,54.0,Artificial Light,0.0
+745,Snowy,Highway,Afternoon,1.0,,5.0,0.0,Low,Icy,Car,24.0,23.0,No Light,0.0
+746,Foggy,Highway,Evening,,60.0,1.0,1.0,,Dry,Car,29.0,22.0,Artificial Light,0.0
+747,Foggy,Rural Road,Afternoon,0.0,100.0,3.0,0.0,Low,Dry,Car,,54.0,Artificial Light,0.0
+748,Rainy,Highway,Evening,2.0,,5.0,1.0,,Icy,Motorcycle,67.0,61.0,Artificial Light,1.0
+749,Rainy,Highway,Evening,1.0,50.0,3.0,1.0,High,Icy,Car,61.0,60.0,Daylight,0.0
+750,Clear,Highway,,2.0,60.0,1.0,1.0,Low,Dry,Car,36.0,27.0,Artificial Light,0.0
+751,Clear,City Road,Evening,1.0,208.0,13.0,1.0,Moderate,Dry,Car,46.0,37.0,Daylight,
+752,Clear,Highway,Evening,1.0,80.0,,0.0,Low,,Car,,53.0,Daylight,1.0
+753,Rainy,City Road,Afternoon,0.0,60.0,2.0,0.0,Low,Icy,Car,65.0,62.0,Artificial Light,0.0
+754,Rainy,Highway,Evening,1.0,50.0,1.0,0.0,Low,Dry,Truck,19.0,10.0,Artificial Light,1.0
+755,Foggy,City Road,Morning,2.0,60.0,,0.0,Moderate,Wet,Car,46.0,41.0,Daylight,0.0
+756,Clear,Highway,Evening,1.0,,3.0,0.0,Low,Dry,Motorcycle,67.0,67.0,Artificial Light,0.0
+757,Clear,City Road,Evening,0.0,30.0,1.0,0.0,Low,Wet,Car,33.0,25.0,Daylight,0.0
+758,Rainy,City Road,Evening,2.0,50.0,1.0,0.0,Low,Dry,Car,53.0,44.0,Daylight,0.0
+759,Rainy,Rural Road,Morning,,50.0,5.0,0.0,Moderate,Wet,Car,50.0,42.0,Artificial Light,0.0
+760,,City Road,Morning,2.0,50.0,2.0,0.0,Low,Wet,Truck,,23.0,Daylight,0.0
+761,Snowy,Highway,Morning,2.0,60.0,2.0,0.0,Low,Dry,Motorcycle,26.0,24.0,Artificial Light,0.0
+762,Clear,Highway,Afternoon,2.0,100.0,4.0,0.0,Low,Dry,Motorcycle,56.0,52.0,Artificial Light,0.0
+763,Clear,Highway,Morning,1.0,50.0,5.0,1.0,Low,Dry,Truck,51.0,47.0,Artificial Light,0.0
+764,Clear,Rural Road,Morning,0.0,60.0,2.0,0.0,Low,Dry,Car,69.0,61.0,Artificial Light,
+765,Rainy,Highway,Night,2.0,50.0,,0.0,Low,Wet,Car,43.0,34.0,Artificial Light,1.0
+766,Foggy,City Road,Evening,2.0,50.0,3.0,0.0,Moderate,,Car,19.0,13.0,Artificial Light,0.0
+767,Stormy,Highway,Afternoon,0.0,60.0,5.0,1.0,Moderate,,Truck,18.0,10.0,Artificial Light,0.0
+768,Snowy,Highway,Afternoon,1.0,100.0,2.0,0.0,Low,Icy,Car,34.0,27.0,Daylight,1.0
+769,Clear,Highway,Evening,1.0,80.0,3.0,0.0,Moderate,Dry,Bus,34.0,26.0,Artificial Light,0.0
+770,Snowy,Highway,Afternoon,0.0,60.0,2.0,0.0,Low,Dry,Car,48.0,40.0,Artificial Light,0.0
+771,Clear,City Road,Evening,1.0,100.0,5.0,0.0,Low,Wet,Car,24.0,15.0,Artificial Light,
+772,Stormy,Highway,Night,,,4.0,0.0,Moderate,Dry,Car,30.0,24.0,Artificial Light,0.0
+773,Snowy,Highway,Afternoon,1.0,50.0,4.0,0.0,,Wet,Car,49.0,44.0,Artificial Light,0.0
+774,Snowy,Highway,Night,0.0,100.0,3.0,1.0,Low,Dry,Car,27.0,23.0,Artificial Light,
+775,Clear,City Road,Evening,0.0,30.0,3.0,0.0,Moderate,Wet,Car,36.0,33.0,Daylight,
+776,Stormy,Rural Road,Morning,1.0,60.0,3.0,0.0,Low,Wet,Car,39.0,31.0,Daylight,
+777,Foggy,Rural Road,Afternoon,0.0,100.0,3.0,0.0,Low,Dry,Car,66.0,62.0,Daylight,0.0
+778,Clear,City Road,Morning,0.0,30.0,1.0,0.0,Moderate,Icy,Car,34.0,27.0,,
+779,Clear,City Road,Afternoon,2.0,60.0,2.0,0.0,Low,Dry,Bus,35.0,27.0,,1.0
+780,Rainy,Rural Road,Afternoon,2.0,50.0,1.0,0.0,Low,Wet,Car,50.0,46.0,Artificial Light,0.0
+781,Clear,Highway,Afternoon,1.0,60.0,,0.0,Low,Dry,Car,22.0,13.0,Artificial Light,0.0
+782,Stormy,City Road,Afternoon,0.0,60.0,1.0,0.0,Low,Under Construction,Motorcycle,44.0,38.0,No Light,1.0
+783,Clear,Rural Road,Afternoon,0.0,80.0,5.0,0.0,Moderate,Icy,Car,,,No Light,0.0
+784,Rainy,City Road,Evening,0.0,,3.0,0.0,Moderate,Dry,Motorcycle,51.0,49.0,Daylight,1.0
+785,Clear,Highway,,1.0,50.0,2.0,0.0,Moderate,Under Construction,Car,65.0,62.0,Artificial Light,0.0
+786,Clear,Highway,Afternoon,0.0,80.0,1.0,0.0,Low,Dry,Car,50.0,50.0,,1.0
+787,Snowy,,,0.0,80.0,2.0,0.0,Low,Under Construction,Car,35.0,29.0,Daylight,1.0
+788,Clear,City Road,Evening,0.0,60.0,2.0,0.0,Low,Wet,Car,23.0,17.0,Daylight,0.0
+789,Snowy,Rural Road,Afternoon,2.0,100.0,4.0,0.0,Low,Dry,Car,40.0,36.0,Daylight,1.0
+790,Rainy,City Road,Morning,1.0,120.0,3.0,1.0,Low,Icy,,54.0,49.0,No Light,1.0
+791,Rainy,Highway,Afternoon,0.0,80.0,5.0,0.0,Low,Dry,Truck,39.0,38.0,Artificial Light,0.0
+792,Clear,Highway,Morning,,100.0,5.0,0.0,Low,Wet,Truck,69.0,61.0,Daylight,0.0
+793,Rainy,City Road,Evening,1.0,100.0,2.0,0.0,Low,,,67.0,67.0,Artificial Light,0.0
+794,Clear,City Road,Evening,,120.0,3.0,0.0,Low,,Car,25.0,17.0,Artificial Light,0.0
+795,Clear,City Road,Evening,2.0,60.0,4.0,0.0,Moderate,,Car,66.0,60.0,Artificial Light,0.0
+796,Clear,City Road,Afternoon,1.0,60.0,3.0,0.0,Low,Under Construction,Car,67.0,65.0,Artificial Light,0.0
+797,Rainy,Highway,Night,1.0,100.0,1.0,0.0,Low,Under Construction,Car,53.0,53.0,Artificial Light,1.0
+798,Clear,Rural Road,Afternoon,2.0,80.0,3.0,0.0,Moderate,,Car,36.0,31.0,Daylight,1.0
+799,Clear,City Road,Night,1.0,50.0,5.0,0.0,,Dry,Car,25.0,17.0,Daylight,0.0
+800,Rainy,Rural Road,Afternoon,1.0,100.0,1.0,0.0,Low,Dry,Truck,,16.0,Daylight,1.0
+801,Stormy,Highway,Night,1.0,50.0,4.0,1.0,Low,Under Construction,Motorcycle,68.0,64.0,Artificial Light,0.0
+802,Clear,Highway,Afternoon,2.0,80.0,2.0,0.0,Moderate,,Bus,24.0,22.0,Daylight,0.0
+803,Rainy,Highway,Morning,0.0,30.0,1.0,0.0,High,Dry,Car,69.0,62.0,Artificial Light,0.0
+804,Clear,City Road,Afternoon,1.0,60.0,2.0,0.0,Low,Under Construction,Car,57.0,55.0,Artificial Light,0.0
+805,Rainy,Highway,Night,2.0,80.0,3.0,0.0,Low,,Car,53.0,51.0,Artificial Light,0.0
+806,Foggy,Rural Road,Evening,0.0,50.0,1.0,0.0,Low,Dry,Car,23.0,17.0,Daylight,0.0
+807,Rainy,City Road,Afternoon,1.0,80.0,1.0,0.0,Low,Wet,Car,43.0,42.0,Artificial Light,1.0
+808,Snowy,Rural Road,Night,1.0,80.0,4.0,0.0,Low,Under Construction,Car,48.0,39.0,Artificial Light,0.0
+809,Clear,Highway,,0.0,50.0,4.0,0.0,Low,Wet,Car,58.0,56.0,Daylight,0.0
+810,Stormy,City Road,Afternoon,1.0,100.0,2.0,0.0,High,Wet,Car,68.0,62.0,Daylight,0.0
+811,Clear,City Road,Afternoon,0.0,100.0,5.0,0.0,Low,Icy,Car,33.0,31.0,Artificial Light,0.0
+812,Clear,Highway,Afternoon,2.0,80.0,4.0,0.0,Low,Under Construction,Truck,31.0,27.0,Artificial Light,0.0
+813,Foggy,Highway,Afternoon,1.0,120.0,2.0,1.0,Low,Dry,Bus,46.0,40.0,Daylight,0.0
+814,Snowy,City Road,Evening,2.0,,5.0,0.0,Moderate,Dry,Bus,19.0,17.0,,0.0
+815,,,Morning,0.0,60.0,1.0,1.0,Low,Icy,Truck,28.0,20.0,,0.0
+816,Clear,City Road,Afternoon,1.0,60.0,5.0,0.0,Low,Dry,Truck,23.0,14.0,Daylight,0.0
+817,Rainy,City Road,,0.0,80.0,4.0,0.0,Moderate,Icy,Car,33.0,30.0,Daylight,1.0
+818,Rainy,Highway,Night,1.0,60.0,5.0,0.0,Moderate,Dry,Car,27.0,22.0,Artificial Light,1.0
+819,,,Evening,,60.0,2.0,0.0,,Dry,Car,32.0,26.0,No Light,0.0
+820,Foggy,Highway,Evening,1.0,60.0,3.0,0.0,Moderate,Icy,Car,61.0,56.0,Artificial Light,0.0
+821,Foggy,City Road,Afternoon,0.0,100.0,2.0,0.0,Moderate,Under Construction,Car,37.0,37.0,Artificial Light,0.0
+822,Stormy,City Road,,0.0,80.0,1.0,0.0,Moderate,Icy,Car,57.0,48.0,Artificial Light,1.0
+823,Rainy,Highway,Afternoon,1.0,80.0,1.0,0.0,High,Dry,Truck,24.0,23.0,No Light,0.0
+824,Clear,City Road,Afternoon,1.0,50.0,5.0,0.0,Moderate,Dry,,25.0,18.0,Daylight,0.0
+825,Clear,Highway,Afternoon,1.0,100.0,2.0,1.0,Moderate,Wet,Car,56.0,51.0,Artificial Light,0.0
+826,Clear,City Road,Afternoon,2.0,100.0,3.0,0.0,Low,Dry,Car,21.0,12.0,Artificial Light,0.0
+827,Rainy,Highway,Afternoon,2.0,100.0,2.0,0.0,Low,Wet,Car,,60.0,Daylight,0.0
+828,Clear,Highway,Evening,0.0,178.0,,0.0,Low,Wet,Car,36.0,35.0,,0.0
+829,Clear,City Road,Afternoon,2.0,50.0,,0.0,Moderate,Dry,Car,20.0,19.0,Daylight,0.0
+830,Foggy,City Road,Morning,1.0,80.0,3.0,0.0,Moderate,Dry,Car,21.0,16.0,Artificial Light,0.0
+831,Clear,Highway,Morning,1.0,100.0,2.0,0.0,Moderate,Wet,Car,56.0,48.0,Artificial Light,1.0
+832,Snowy,Highway,Morning,0.0,30.0,2.0,1.0,Moderate,Under Construction,,,39.0,Artificial Light,0.0
+833,Snowy,City Road,Evening,1.0,50.0,3.0,0.0,,Wet,Car,18.0,12.0,Artificial Light,0.0
+834,Rainy,Rural Road,Afternoon,0.0,,4.0,0.0,Moderate,Dry,Car,53.0,45.0,Daylight,0.0
+835,Rainy,City Road,Evening,0.0,60.0,,1.0,Low,Under Construction,Car,33.0,27.0,Artificial Light,
+836,Clear,Highway,Night,2.0,30.0,4.0,0.0,Low,Dry,Car,23.0,15.0,Daylight,0.0
+837,Rainy,Rural Road,Evening,2.0,60.0,4.0,0.0,Low,Dry,Motorcycle,52.0,46.0,Daylight,1.0
+838,Foggy,Highway,Evening,,30.0,4.0,1.0,High,Dry,Car,,34.0,Artificial Light,
+839,Foggy,Highway,Afternoon,2.0,60.0,3.0,0.0,Low,Dry,Car,25.0,19.0,Artificial Light,0.0
+840,Clear,Highway,Afternoon,1.0,60.0,4.0,0.0,Low,Dry,Motorcycle,29.0,21.0,Artificial Light,0.0
